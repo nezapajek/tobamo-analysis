@@ -1,0 +1,60 @@
+{
+    "Brugmansia mild mottle virus": {
+        "NC_010944.1": 30
+    },
+    "Cactus tobamovirus 1": {
+        "MW938768.1": 30
+    },
+    "Gorica tobamovirus 1": {
+        "OQ789505.1": 30
+    },
+    "Japanese soil-borne wheat mosaic virus 1": {
+        "AB033689.1": 19,
+        "AB033690.1": 11
+    },
+    "Kyuri green mottle mosaic virus 2": {
+        "AB162006.1": 30
+    },
+    "Kyuri green mottle mosaic virus 3": {
+        "AB015145.1": 30
+    },
+    "Plumeria mosaic virus": {
+        "NC_026816.1": 30
+    },
+    "Trichosanthes mottle mosaic virus": {
+        "OL404963.1": 30
+    },
+    "Watermelon green mottle mosaic virus": {
+        "MH837097.1": 30
+    },
+    "beet soil-borne virus": {
+        "U64512.1": 14,
+        "Z66493.2": 10,
+        "Z97873.1": 6
+    },
+    "broad bean necrosis virus": {
+        "D86636.1": 12,
+        "D86637.1": 7,
+        "D86638.1": 11
+    },
+    "cucumber fruit mottle mosaic virus 2": {
+        "MT989352.1": 30
+    },
+    "gentian ovary ringspot virus": {
+        "AB976029.1": 18,
+        "AB976030.1": 12
+    },
+    "pepper ringspot virus": {
+        "L23972.1": 7,
+        "X03241.1": 23
+    },
+    "rattail cactus necrosis-associated virus 2": {
+        "MT130378.1": 30
+    },
+    "tobacco mild green mosaic virus": {
+        "NC_001556.1": 30
+    },
+    "youcai mosaic virus; oil-seed rape mosaic virus": {
+        "NC_004422.1": 30
+    }
+}

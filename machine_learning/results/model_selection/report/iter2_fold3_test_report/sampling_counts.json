@@ -1,0 +1,58 @@
+{
+    "Brugmansia mild mottle virus": {
+        "NC_010944.1": 30
+    },
+    "Japanese soil-borne wheat mosaic virus 1": {
+        "AB033689.1": 16,
+        "AB033690.1": 14
+    },
+    "Kyuri green mottle mosaic virus 1": {
+        "NC_003610.1": 30
+    },
+    "Kyuri green mottle mosaic virus 2": {
+        "AB162006.1": 30
+    },
+    "Opuntia virus 2": {
+        "NC_040685.2": 30
+    },
+    "Plumeria mosaic virus": {
+        "NC_026816.1": 30
+    },
+    "Sunn-hemp mottle virus": {
+        "OP342598.1": 30
+    },
+    "Trichosanthes mottle mosaic virus": {
+        "OL404963.1": 30
+    },
+    "cactus mild mottle virus": {
+        "NC_011803.1": 30
+    },
+    "cucumber fruit mottle mosaic virus 1": {
+        "NC_002633.1": 30
+    },
+    "peanut clump virus 2": {
+        "MW961156.1": 11,
+        "MW961157.1": 19
+    },
+    "pepper mild mottle virus": {
+        "NC_003630.1": 30
+    },
+    "pepper ringspot virus": {
+        "L23972.1": 9,
+        "X03241.1": 21
+    },
+    "rattail cactus necrosis-associated virus 2": {
+        "MT130378.1": 30
+    },
+    "soil-borne wheat mosaic virus 1": {
+        "MG554563.1": 17,
+        "MK290758.1": 13
+    },
+    "tobacco rattle virus": {
+        "AF166084.1": 16,
+        "Z36974.2": 14
+    },
+    "turnip vein-clearing virus": {
+        "NC_001873.1": 30
+    }
+}

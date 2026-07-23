@@ -1,0 +1,20 @@
+name: phylo_placement
+channels:
+  - bioconda
+  - conda-forge
+  - defaults
+dependencies:
+  # Python
+  - python=3.10
+  
+  # Bioinformatics tools for phylogenetic placement
+  - mafft=7.525           # Multiple sequence alignment
+  - iqtree=3.0.1          # Phylogenetic tree construction
+  - epa-ng=0.3.8          # Phylogenetic placement
+  - trimal=1.5.0          # Alignment trimming (optional)
+  - gappa=0.9.0           # Convert placement information into annotations
+  
+  # Python packages
+  - biopython=1.87
+  - pandas>=1.5.0
+  - numpy>=1.21.0

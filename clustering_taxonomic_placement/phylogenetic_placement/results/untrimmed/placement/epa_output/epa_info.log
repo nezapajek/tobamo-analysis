@@ -1,0 +1,20 @@
+INFO Selected: Output dir: results/untrimmed/placement/epa_output/
+INFO Selected: Query file: results/untrimmed/placement/contigs_aligned.fasta
+INFO Selected: Tree file: results/untrimmed/iqtree/reference.treefile
+INFO Selected: Reference MSA: results/untrimmed/reference.aln
+INFO Selected: Automatic switching of use of per rate scalers
+INFO Selected: Preserving the root of the input tree
+INFO Selected: Specified model file: results/untrimmed/iqtree/reference.iqtree
+INFO     ______ ____   ___           _   __ ______
+        / ____// __ \ /   |         / | / // ____/
+       / __/  / /_/ // /| | ______ /  |/ // / __  
+      / /___ / ____// ___ |/_____// /|  // /_/ /  
+     /_____//_/    /_/  |_|      /_/ |_/ \____/ (v0.3.8)
+INFO Using model parameters:
+INFO    Rate heterogeneity: NONE
+        Base frequencies (user): 0.285529 0.188119 0.238624 0.287729 
+        Substitution rates (user): 2.1597 4.0385 1.489 1.4747 5.5221 1
+INFO Output file: results/untrimmed/placement/epa_output/epa_result.jplace
+INFO 56 Sequences done!
+INFO Time spent placing: 0s
+INFO Elapsed Time: 0s

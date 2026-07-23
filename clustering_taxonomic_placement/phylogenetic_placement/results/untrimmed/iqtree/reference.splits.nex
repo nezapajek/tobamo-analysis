@@ -1,0 +1,269 @@
+#nexus
+
+BEGIN Taxa;
+DIMENSIONS ntax=67;
+TAXLABELS
+[1] 'Tobacco_mosaic_virus_V01408'
+[2] 'Pepper_mild_mottle_virus_M81413'
+[3] 'Tobacco_mild_green_mosaic_virus_M34077'
+[4] 'Obuda_pepper_virus_D13438'
+[5] 'Odontoglossum_ringspot_virus_X82130'
+[6] 'Youcai_mosaic_virus_U30944'
+[7] 'Sunn-hemp_mosaic_virus_U47034'
+[8] 'Cucumber_green_mottle_mosaic_virus_D12505'
+[9] 'Turnip_vein-clearing_virus_U03387'
+[10] 'Cucumber_fruit_mottle_mosaic_virus_AF321057'
+[11] 'Tomato_mosaic_virus_AF332868'
+[12] 'Kyuri_green_mottle_mosaic_virus_AJ295948'
+[13] 'Zucchini_green_mottle_mosaic_virus_AJ295949'
+[14] 'Wasabi_mottle_virus_AB017503'
+[15] 'Paprika_mild_mottle_virus_AB089381'
+[16] 'Tobacco_latent_virus_AY137775'
+[17] 'Bell_pepper_mottle_virus_DQ355023'
+[18] 'Maracuja_mosaic_virus_DQ356949'
+[19] 'Streptocarpus_flower_break_virus_AM040955'
+[20] 'Brugmansia_sp._tobamovirus_AM398436'
+[21] 'Cucumber_mottle_virus_AB261167'
+[22] 'Rehmannia_mosaic_virus_EF375551'
+[23] 'Cactus_mild_mottle_virus_EU043335'
+[24] 'Frangipani_mosaic_virus_HM026454'
+[25] 'Passion_fruit_mosaic_virus_HQ389540'
+[26] 'Ribgrass_mosaic_virus_HQ667979'
+[27] 'Rattail_cactus_necrosis_associated_virus_JF729471'
+[28] 'Clitoria_yellow_mottle_virus_JN566124'
+[29] 'Tomato_mottle_mosaic_virus_KF477193'
+[30] 'Yellow_tailflower_mild_mottle_virus_KF495564'
+[31] 'Hibiscus_latent_Singapore_virus_AF395898'
+[32] 'Plumeria_mosaic_virus_KJ395757'
+[33] 'Hibiscus_latent_Fort_Pierce_virus_AB917427'
+[34] 'Tomato_brown_rugose_fruit_virus_KT383474'
+[35] 'Tropical_soda_apple_mosaic_virus_KU659022'
+[36] 'Hoya_chlorotic_spot_virus_NC_034509'
+[37] 'Bottle_gourd_mottle_virus_MF960828'
+[38] 'Watermelon_green_mottle_mosaic_virus_MH837097'
+[39] 'Brugmansia_latent_virus_MK012556'
+[40] 'Ullucus_tobamovirus_1_MH645158'
+[41] 'Yellow_pepper_mild_mottle_virus_MN164454'
+[42] 'Virgaviridae_sp._MW346736'
+[43] 'Sichuan_virgavirus_MW897265'
+[44] 'Hubei_sediment_virgavirus_1_MW897255'
+[45] 'Hubei_sediment_virgavirus_2_MW897259'
+[46] 'Yunnan_virgavirus_3_MW897268'
+[47] 'Scopolia_mild_mottle_virus_LC643028'
+[48] 'Plantago_tobamovirus_1_OL472109'
+[49] 'African_eggplant-associated_virus_OP729507'
+[50] 'African_eggplant-associated_virus_OP729508'
+[51] 'Piper_chlorosis_virus_isolate_ON924221'
+[52] 'Sewage-associated_tobamovirus_LC745662'
+[53] 'Hibiscus_latent_Hawaii_virus_ON602041'
+[54] 'Brugmansia_latent_virus_OQ615312'
+[55] 'Gorica_tobamovirus_1_OQ789505'
+[56] 'Capsicum_mild_mottle_virus_OR607769'
+[57] 'Chili_pepper_mild_mottle_virus_OQ920979'
+[58] 'Tobamovirus_sp._OR843968'
+[59] 'Beldersay_tobamovirus_1_OR912405'
+[60] 'Virgaviridae_sp._OR871420'
+[61] 'Virgaviridae_sp._OR871422'
+[62] 'Virgaviridae_sp._OR871424'
+[63] 'Jand_tobamovirus_1_PP971571'
+[64] 'Virgaviridae_sp._PV470276'
+[65] 'Crucifer_tobamovirus_AB003936'
+[66] 'Opuntia_virus_2_NC_040685'
+[67] 'Oat_golden_stripe_virus_furovirus_outgroup_AJ132578'
+;
+END; [Taxa]
+
+BEGIN Splits;
+DIMENSIONS ntax=67 nsplits=187;
+FORMAT labels=no weights=yes confidences=no intervals=no;
+MATRIX
+	100	 2,
+	100	 42,
+	100	 2 42,
+	100	 35,
+	100	 2 35 42,
+	100	 49,
+	100	 50,
+	80	 49 50,
+	100	 58,
+	100	 49 50 58,
+	100	 2 35 42 49 50 58,
+	100	 3,
+	100	 5,
+	100	 51,
+	100	 5 51,
+	100	 6,
+	100	 14,
+	100	 65,
+	100	 14 65,
+	100	 6 14 65,
+	100	 9,
+	100	 26,
+	100	 48,
+	100	 26 48,
+	100	 59,
+	96	 26 48 59,
+	100	 9 26 48 59,
+	100	 6 9 14 26 48 59 65,
+	100	 55,
+	100	 6 9 14 26 48 55 59 65,
+	31	 5 6 9 14 26 48 51 55 59 65,
+	100	 40,
+	86	 5 6 9 14 26 40 48 51 55 59 65,
+	100	 19,
+	100	 5 6 9 14 19 26 40 48 51 55 59 65,
+	100	 36,
+	100	 43,
+	100	 36 43,
+	100	 5 6 9 14 19 26 36 40 43 48 51 55 59 65,
+	100	 7,
+	100	 28,
+	100	 7 28,
+	100	 8,
+	100	 61,
+	99	 8 61,
+	100	 60,
+	97	 8 60 61,
+	100	 64,
+	100	 8 60 61 64,
+	100	 10,
+	100	 12,
+	100	 13,
+	100	 12 13,
+	100	 10 12 13,
+	83	 8 10 12 13 60 61 64,
+	100	 21,
+	100	 37,
+	100	 38,
+	100	 37 38,
+	100	 21 37 38,
+	100	 8 10 12 13 21 37 38 60 61 64,
+	100	 31,
+	100	 53,
+	78	 31 53,
+	100	 33,
+	100	 31 33 53,
+	93	 8 10 12 13 21 31 33 37 38 53 60 61 64,
+	100	 18,
+	100	 25,
+	100	 18 25,
+	100	 52,
+	100	 18 25 52,
+	40	 8 10 12 13 18 21 25 31 33 37 38 52 53 60 61 64,
+	93	 7 8 10 12 13 18 21 25 28 31 33 37 38 52 53 60 61 64,
+	100	 24,
+	100	 32,
+	100	 24 32,
+	100	 44,
+	100	 45,
+	100	 44 45,
+	100	 67,
+	95	 44 45 67,
+	95	 24 32 44 45 67,
+	95	 7 8 10 12 13 18 21 24 25 28 31 32 33 37 38 44 45 52 53 60 61 64 67,
+	100	 23,
+	100	 27,
+	100	 23 27,
+	100	 66,
+	100	 23 27 66,
+	100	 7 8 10 12 13 18 21 23 24 25 27 28 31 32 33 37 38 44 45 52 53 60 61 64 66 67,
+	100	 63,
+	100	 7 8 10 12 13 18 21 23 24 25 27 28 31 32 33 37 38 44 45 52 53 60 61 63 64 66 67,
+	100	 1 2 3 4 11 15 16 17 20 22 29 30 34 35 39 41 42 46 47 49 50 54 56 57 58 62,
+	25	 1 2 4 11 15 16 17 20 22 29 30 34 35 39 41 42 46 47 49 50 54 56 57 58 62,
+	100	 16,
+	100	 46,
+	25	 16 46,
+	59	 1 2 4 11 15 17 20 22 29 30 34 35 39 41 42 47 49 50 54 56 57 58 62,
+	100	 20,
+	100	 39,
+	100	 54,
+	100	 39 54,
+	100	 20 39 54,
+	49	 1 2 4 11 15 17 22 29 30 34 35 41 42 47 49 50 56 57 58 62,
+	100	 4,
+	100	 15,
+	100	 4 15,
+	100	 56,
+	100	 4 15 56,
+	100	 30,
+	100	 47,
+	100	 30 47,
+	100	 4 15 30 47 56,
+	100	 1 2 11 17 22 29 34 35 41 42 49 50 57 58 62,
+	100	 1 11 17 22 29 34 41 57 62,
+	100	 17,
+	100	 57,
+	91	 17 57,
+	100	 41,
+	100	 17 41 57,
+	100	 1 11 22 29 34 62,
+	100	 11,
+	100	 29,
+	100	 11 29,
+	100	 1 22 34 62,
+	100	 34,
+	100	 1 22 62,
+	100	 22,
+	100	 1 62,
+	100	 62,
+	100	 1,
+	62	 3 46,
+	68	 6 9 14 26 40 48 55 59 65,
+	60	 7 18 25 28 52,
+	14	 8 21 37 38 60 61 64,
+	62	 1 2 4 11 15 16 17 20 22 29 30 34 35 39 41 42 47 49 50 54 56 57 58 62,
+	32	 1 2 4 11 15 16 17 22 29 30 34 35 41 42 47 49 50 56 57 58 62,
+	35	 1 2 11 16 17 22 29 34 35 41 42 49 50 57 58 62,
+	9	 41 57,
+	18	 33 53,
+	6	 18 25 31 33 52 53,
+	4	 1 2 11 16 17 20 22 29 34 35 39 41 42 49 50 54 57 58 62,
+	20	 50 58,
+	10	 1 2 3 4 11 15 16 17 20 22 29 30 34 35 39 41 42 47 49 50 54 56 57 58 62,
+	9	 1 2 3 4 11 15 17 20 22 29 30 34 35 39 41 42 47 49 50 54 56 57 58 62,
+	13	 1 2 11 17 20 22 29 34 35 39 41 42 49 50 54 57 58 62,
+	3	 9 26 48,
+	9	 5 19 51,
+	0	 7 28 44 45 67,
+	4	 7 23 27 28 44 45 66 67,
+	4	 8 10 12 13 18 21 24 25 31 32 33 37 38 52 53 60 61 64,
+	5	 31 33,
+	5	 5 6 9 14 19 26 48 51 55 59 65,
+	5	 16 20 39 54,
+	1	 4 15 20 30 39 47 54 56,
+	1	 23 24 27 32 44 45 66 67,
+	1	 60 64,
+	5	 3 16 46,
+	6	 24 32 44 45,
+	4	 23 27 44 45 66 67,
+	1	 4 15 16 20 30 39 47 54 56,
+	2	 8 10 12 13 18 21 24 25 31 32 33 37 38 44 45 52 53 60 61 64 67,
+	3	 8 61 64,
+	1	 4 15 16 30 47 56,
+	3	 10 12 13 21 37 38,
+	1	 8 60,
+	0	 61 64,
+	0	 7 8 10 12 13 18 21 24 25 28 31 32 33 37 38 52 53 60 61 64,
+	1	 7 24 28 32 44 45 67,
+	1	 1 2 3 4 11 15 17 20 22 29 30 34 35 39 41 42 46 47 49 50 54 56 57 58 62,
+	1	 6 9 14 19 26 40 48 55 59 65,
+	0	 7 24 28 32,
+	1	 9 59,
+	1	 3 16,
+	0	 8 10 12 13 18 21 25 37 38 52 60 61 64,
+	0	 1 22 29 34 62,
+	0	 7 8 10 12 13 18 21 23 25 27 28 31 33 37 38 52 53 60 61 64 66,
+	1	 7 8 10 12 13 18 21 24 25 28 31 32 33 37 38 44 45 52 53 60 61 64,
+	0	 17 41,
+	0	 8 10 12 13 21 24 31 32 33 37 38 53 60 61 64,
+	0	 60 61,
+	0	 7 8 10 12 13 18 21 25 28 31 33 37 38 44 45 52 53 60 61 64 67,
+	0	 7 8 10 12 13 18 21 25 28 31 33 37 38 52 53 60 61 64 67,
+	0	 7 18 25 28 31 33 52 53,
+	0	 8 64,
+	0	 6 9 14 19 26 48 55 59 65,
+	0	 5 6 9 14 26 36 40 43 48 51 55 59 65,
+;
+END; [Splits]
+

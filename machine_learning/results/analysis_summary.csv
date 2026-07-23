@@ -1,0 +1,4 @@
+Analysis Phase,Key Findings,Sample Size,Best Performance
+Model Selection,"RandomForest selected in 22/25 folds (88%), accuracy: 0.7671 ± 0.0215",25 folds (5 iter × 5-fold CV),RandomForest: 0.7671
+Model Evaluation,"Histogram method achieved best performance: accuracy = 0.9735, F1 = 0.9806",30 iterations,Histogram: 0.9735
+Final Model,Top feature: tobamo_orf1_identity_score_max (importance: 0.021722),148 total features,Final model with 40 top features

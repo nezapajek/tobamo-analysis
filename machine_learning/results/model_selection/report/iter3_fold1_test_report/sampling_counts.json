@@ -1,0 +1,62 @@
+{
+    "Bertoki tobamovirus 1": {
+        "OQ789506.1": 30
+    },
+    "Brugmansia latent virus": {
+        "MK012556.1": 30
+    },
+    "Cactus tobamovirus 1": {
+        "MW938768.1": 30
+    },
+    "Clitoria yellow mottle virus": {
+        "NC_016519.1": 30
+    },
+    "Indian peanut clump virus": {
+        "AF447397.1": 15,
+        "X99149.1": 15
+    },
+    "Kyuri green mottle mosaic virus 3": {
+        "AB015145.1": 30
+    },
+    "Plumeria mosaic virus": {
+        "NC_026816.1": 30
+    },
+    "Trichosanthes mottle mosaic virus": {
+        "OL404963.1": 30
+    },
+    "gentian ovary ringspot virus": {
+        "AB976029.1": 19,
+        "AB976030.1": 11
+    },
+    "oat golden stripe virus": {
+        "AJ132578.1": 14,
+        "AJ132579.1": 16
+    },
+    "rattail cactus necrosis-associated virus 1": {
+        "NC_016442.1": 30
+    },
+    "rattail cactus necrosis-associated virus 2": {
+        "MT130378.1": 30
+    },
+    "rattail cactus necrosis-associated virus 3": {
+        "KY348773.1": 30
+    },
+    "soil-borne wheat mosaic virus 1": {
+        "MG554563.1": 21,
+        "MK290758.1": 9
+    },
+    "soil-borne wheat mosaic virus 2": {
+        "MN241032.1": 20,
+        "MN241033.1": 10
+    },
+    "tobacco mild green mosaic virus": {
+        "NC_001556.1": 30
+    },
+    "tobacco mosaic virus 2": {
+        "FR878069.1": 30
+    },
+    "tobacco rattle virus": {
+        "AF166084.1": 18,
+        "Z36974.2": 12
+    }
+}

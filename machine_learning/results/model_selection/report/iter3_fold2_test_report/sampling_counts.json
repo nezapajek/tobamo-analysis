@@ -1,0 +1,64 @@
+{
+    "African eggplant-associated virus": {
+        "OP729508.1": 30
+    },
+    "Chili pepper mild mottle virus": {
+        "MN164455.1": 30
+    },
+    "Gorica tobamovirus 1": {
+        "OQ789505.1": 30
+    },
+    "Hibiscus latent Singapore virus 2": {
+        "LC127213.1": 30
+    },
+    "Hoya necrotic spot virus": {
+        "MN961200.1": 30
+    },
+    "Japanese soil-borne wheat mosaic virus 1": {
+        "AB033689.1": 15,
+        "AB033690.1": 15
+    },
+    "Japanese soil-borne wheat mosaic virus 2": {
+        "MN123253.1": 20,
+        "MN123254.1": 10
+    },
+    "Plantago tobamovirus 1": {
+        "OL472109.1": 30
+    },
+    "Poa semilatent virus": {
+        "MK377386.1": 16,
+        "MK377387.1": 5,
+        "MK377388.1": 9
+    },
+    "Rehmannia mosaic virus": {
+        "NC_009041.1": 30
+    },
+    "beet virus Q": {
+        "AJ223596.1": 16,
+        "AJ223597.1": 8,
+        "AJ223598.1": 6
+    },
+    "bell pepper mottle virus": {
+        "NC_009642.1": 30
+    },
+    "cactus mild mottle virus": {
+        "NC_011803.1": 30
+    },
+    "cucumber fruit mottle mosaic virus 2": {
+        "MT989352.1": 30
+    },
+    "cucumber mottle virus": {
+        "NC_008614.1": 30
+    },
+    "potato mop-top virus": {
+        "NC_003723.1": 5,
+        "NC_003724.1": 17,
+        "NC_003725.1": 8
+    },
+    "rattail cactus necrosis-associated virus 4": {
+        "KU854932.1": 30
+    },
+    "yellow tailflower mild mottle virus": {
+        "NC_022801.1": 30
+    }
+}

@@ -1,0 +1,242 @@
+{
+    "African eggplant-associated virus": {
+        "OP729508.1": 30
+    },
+    "Brugmansia latent virus": {
+        "MK012556.1": 30
+    },
+    "Brugmansia mild mottle virus": {
+        "NC_010944.1": 30
+    },
+    "Cactus tobamovirus 1": {
+        "MW938768.1": 30
+    },
+    "Chili pepper mild mottle virus": {
+        "MN164455.1": 30
+    },
+    "Chinese wheat mosaic virus": {
+        "AJ012005.1": 20,
+        "AJ012006.1": 10
+    },
+    "Clitoria yellow mottle virus": {
+        "NC_016519.1": 30
+    },
+    "Drakaea virus A": {
+        "KP760461.1": 17,
+        "KP760462.1": 13
+    },
+    "Frangipani mosaic virus": {
+        "NC_014546.1": 30
+    },
+    "Gorica tobamovirus 1": {
+        "OQ789505.1": 30
+    },
+    "Hibiscus latent Hawaii virus": {
+        "ON602041.1": 30
+    },
+    "Hibiscus latent Singapore virus 1": {
+        "NC_008310.2": 30
+    },
+    "Hibiscus latent Singapore virus 2": {
+        "LC127213.1": 30
+    },
+    "Hoya chlorotic spot virus": {
+        "NC_034509.1": 30
+    },
+    "Indian peanut clump virus": {
+        "AF447397.1": 14,
+        "X99149.1": 16
+    },
+    "Japanese soil-borne wheat mosaic virus 1": {
+        "AB033689.1": 20,
+        "AB033690.1": 10
+    },
+    "Kyuri green mottle mosaic virus 1": {
+        "NC_003610.1": 30
+    },
+    "Kyuri green mottle mosaic virus 2": {
+        "AB162006.1": 30
+    },
+    "Kyuri green mottle mosaic virus 3": {
+        "AB015145.1": 30
+    },
+    "Ligustrum mosaic virus": {
+        "MW752157.1": 10,
+        "MW752158.1": 15,
+        "MW752159.1": 5
+    },
+    "Lychnis ringspot virus 1": {
+        "OK558721.1": 12,
+        "OK558722.1": 13,
+        "OK558723.1": 5
+    },
+    "Lychnis ringspot virus 2": {
+        "MF768253.1": 9,
+        "MF768254.1": 11,
+        "MF768255.1": 10
+    },
+    "Obuda pepper virus": {
+        "NC_003852.1": 30
+    },
+    "Odontoglossum ringspot virus": {
+        "NC_001728.1": 30
+    },
+    "Opuntia virus 2": {
+        "NC_040685.2": 30
+    },
+    "Piper chlorosis virus": {
+        "OR350232.2": 30
+    },
+    "Plantago tobamovirus 1": {
+        "OL472109.1": 30
+    },
+    "Plumeria mosaic virus": {
+        "NC_026816.1": 30
+    },
+    "Poa semilatent virus": {
+        "MK377386.1": 11,
+        "MK377387.1": 9,
+        "MK377388.1": 10
+    },
+    "Rehmannia mosaic virus": {
+        "NC_009041.1": 30
+    },
+    "Scopolia mild mottle virus": {
+        "LC643028.1": 30
+    },
+    "Sewage-associated tobamovirus": {
+        "LC745662.1": 30
+    },
+    "Soil-borne cereal mosaic virus": {
+        "AJ132576.1": 21,
+        "AJ132577.1": 9
+    },
+    "Streptocarpus flower break virus": {
+        "NC_008365.1": 30
+    },
+    "Sunn-hemp mottle virus": {
+        "OP342598.1": 30
+    },
+    "Trichosanthes mottle mosaic virus": {
+        "OL404963.1": 30
+    },
+    "Ullucus mild mottle virus": {
+        "MH645158.1": 30
+    },
+    "Yellow pepper mild mottle virus": {
+        "MN164454.1": 30
+    },
+    "barley stripe mosaic virus": {
+        "J04342.1": 5,
+        "M16576.1": 7,
+        "X03854.1": 18
+    },
+    "beet soil-borne virus": {
+        "U64512.1": 17,
+        "Z97873.1": 13
+    },
+    "beet virus Q": {
+        "AJ223596.1": 21,
+        "AJ223597.1": 9
+    },
+    "broad bean necrosis virus": {
+        "D86636.1": 17,
+        "D86637.1": 13
+    },
+    "cactus mild mottle virus": {
+        "NC_011803.1": 30
+    },
+    "cucumber fruit mottle mosaic virus 1": {
+        "NC_002633.1": 30
+    },
+    "cucumber fruit mottle mosaic virus 2": {
+        "MT989352.1": 30
+    },
+    "cucumber green mottle mosaic virus": {
+        "NC_001801.1": 30
+    },
+    "cucumber mottle virus": {
+        "NC_008614.1": 30
+    },
+    "gentian ovary ringspot virus": {
+        "AB976029.1": 19,
+        "AB976030.1": 11
+    },
+    "oat golden stripe virus": {
+        "AJ132578.1": 21,
+        "AJ132579.1": 9
+    },
+    "paprika mild mottle virus": {
+        "NC_004106.1": 30
+    },
+    "passion fruit mosaic virus": {
+        "NC_015552.1": 30
+    },
+    "pea early-browning virus": {
+        "X14006.1": 16,
+        "X51828.1": 14
+    },
+    "peanut clump virus 1": {
+        "L07269.1": 16,
+        "X78602.1": 14
+    },
+    "peanut clump virus 2": {
+        "MW961156.1": 16,
+        "MW961157.1": 14
+    },
+    "pepper mild mottle virus": {
+        "NC_003630.1": 30
+    },
+    "pepper ringspot virus": {
+        "L23972.1": 10,
+        "X03241.1": 20
+    },
+    "rattail cactus necrosis-associated virus 1": {
+        "NC_016442.1": 30
+    },
+    "rattail cactus necrosis-associated virus 2": {
+        "MT130378.1": 30
+    },
+    "rattail cactus necrosis-associated virus 3": {
+        "KY348773.1": 30
+    },
+    "rattail cactus necrosis-associated virus 4": {
+        "KU854932.1": 30
+    },
+    "ribgrass mosaic virus": {
+        "NC_002792.2": 30
+    },
+    "soil-borne wheat mosaic virus 1": {
+        "MG554563.1": 18,
+        "MK290758.1": 12
+    },
+    "soil-borne wheat mosaic virus 2": {
+        "MN241032.1": 21,
+        "MN241033.1": 9
+    },
+    "sunn-hemp mosaic virus": {
+        "MW057697.1": 30
+    },
+    "tobacco mild green mosaic virus": {
+        "NC_001556.1": 30
+    },
+    "tobacco rattle virus": {
+        "AF166084.1": 17,
+        "Z36974.2": 13
+    },
+    "tomato brown rugose fruit virus": {
+        "NC_028478.1": 30
+    },
+    "tomato mosaic virus": {
+        "NC_002692.1": 30
+    },
+    "tomato mottle mosaic virus": {
+        "NC_022230.1": 30
+    },
+    "turnip vein-clearing virus": {
+        "NC_001873.1": 30
+    },
+    "youcai mosaic virus; oil-seed rape mosaic virus": {
+        "NC_004422.1": 30
+    }
+}

@@ -1,0 +1,6 @@
+[96morfipy version 0.0.4[0m
+[96mUsing translation table: Standard (transl_table=1) start: ['TTG', 'CTG', 'ATG'] stop: ['TAA', 'TAG', 'TGA'][0m
+[96mSetting chunk size 1000 MB. Procs 29[0m
+[93mLogs will be saved to: results/training/orfs/orfipy_2025_07_11_15_21_50.138223.log[0m
+Processing 14677908 bytes[92mProcessed 3750 sequences in 0.60 seconds[0m
+

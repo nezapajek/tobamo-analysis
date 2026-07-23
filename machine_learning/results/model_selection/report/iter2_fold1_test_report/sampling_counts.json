@@ -1,0 +1,63 @@
+{
+    "Brugmansia latent virus": {
+        "MK012556.1": 30
+    },
+    "Clitoria yellow mottle virus": {
+        "NC_016519.1": 30
+    },
+    "Frangipani mosaic virus": {
+        "NC_014546.1": 30
+    },
+    "Hibiscus latent Hawaii virus": {
+        "ON602041.1": 30
+    },
+    "Hibiscus latent Singapore virus 1": {
+        "NC_008310.2": 30
+    },
+    "Hibiscus latent Singapore virus 2": {
+        "LC127213.1": 30
+    },
+    "Indian peanut clump virus": {
+        "AF447397.1": 17,
+        "X99149.1": 13
+    },
+    "Lychnis ringspot virus 2": {
+        "MF768253.1": 12,
+        "MF768254.1": 7,
+        "MF768255.1": 11
+    },
+    "Piper chlorosis virus": {
+        "OR350232.2": 30
+    },
+    "Rehmannia mosaic virus": {
+        "NC_009041.1": 30
+    },
+    "Soil-borne cereal mosaic virus": {
+        "AJ132576.1": 15,
+        "AJ132577.1": 15
+    },
+    "Ullucus mild mottle virus": {
+        "MH645158.1": 30
+    },
+    "cucumber fruit mottle mosaic virus 2": {
+        "MT989352.1": 30
+    },
+    "cucumber mottle virus": {
+        "NC_008614.1": 30
+    },
+    "gentian ovary ringspot virus": {
+        "AB976029.1": 17,
+        "AB976030.1": 13
+    },
+    "oat golden stripe virus": {
+        "AJ132578.1": 20,
+        "AJ132579.1": 10
+    },
+    "peanut clump virus 1": {
+        "L07269.1": 17,
+        "X78602.1": 13
+    },
+    "tomato mosaic virus": {
+        "NC_002692.1": 30
+    }
+}

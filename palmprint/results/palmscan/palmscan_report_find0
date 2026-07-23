@@ -1,0 +1,1043 @@
+
+>NODE_7104_length_1501_cov_4.732365_ERR1356733_3
+   A:266-277(26.5)      B:328-341(24.5)      C:359-366(16.9)
+   LELDISKYDKSQ    <74> SGDVTTFIGNTVII  <45> FCGDDSLL  [101]
+   ||+|||||||||         |||+|||||||+|.       |||||||+
+   lEiDfSKFDKSQ         TGdatTylGNTivn       fsGDDSLI
+Score 68.0, Martellivirales (Kitrino +14.2)
+
+>NODE_37416_length_670_cov_3.471545_ERR1356733_1
+   A:16-27(26.5)      B:78-91(21.4)       C:109-116(16.1)
+   LELDISKYDKSQ  <74> SGDVSTFIGNTVII <45> FCGDDSVI  [101]
+   ||+|||||||||       |||+ ||||||+|.      |||||| |
+   lEiDfSKFDKSQ       TGdatTylGNTivn      fsGDDSLI
+Score 64.0, Martellivirales (Kitrino +9.8)
+
+>NODE_916_length_3714_cov_7.049740_ERR1356733_2
+   A:271-282(25.1)      B:333-346(23.1)      C:364-371(18.3)
+   LELDVSKYDKSQ    <74> SGDVTTFIGNTFII  <45> FCGDDSLI  [101]
+   ||+| |||||||         |||+||||||| |.       ||||||||
+   lEiDfSKFDKSQ         TGdatTylGNTivn       fsGDDSLI
+Score 66.5, Martellivirales (Kitrino +12.9)
+
+>NODE_18035_length_967_cov_1.584430_ERR1356733_1
+   A:78-89(24.9)      B:140-153(28.1)      C:171-178(18.7)
+   LEADLSKFDKSQ  <74> TGDAFTYFGNTLVT  <45> FSGDDSLI  [101]
+   || |+|||||||       ||||+|||||||||       ||||||||
+   lEiDfSKFDKSQ       TGdatTylGNTivn       fsGDDSLI
+Score 71.8, Martellivirales (Kitrino +16.9)
+
+>NODE_1266_length_3238_cov_2.636821_ERR1356733_2
+   A:265-276(26.5)      B:327-340(25.3)      C:358-365(16.1)
+   LELDISKYDKSQ    <74> SGDVTTFIGNTIII  <45> FCGDDSIL  [101]
+   ||+|||||||||         |||+|||||||||.       |||||||+
+   lEiDfSKFDKSQ         TGdatTylGNTivn       fsGDDSLI
+Score 68.0, Martellivirales (Kitrino +13.8)
+
+>NODE_1325_length_4942_cov_5.310006_ERR3010915_10
+   A:264-275(26.5)      B:326-339(25.3)      C:357-364(16.1)
+   LELDISKYDKSQ    <74> SGDVTTFIGNTIII  <45> FCGDDSVI  [101]
+   ||+|||||||||         |||+|||||||||.       |||||| |
+   lEiDfSKFDKSQ         TGdatTylGNTivn       fsGDDSLI
+Score 68.0, Martellivirales (Kitrino +11.9)
+
+>NODE_2847_length_3470_cov_9.514788_ERR3010915_2
+   A:264-275(26.5)      B:326-339(22.3)      C:357-364(16.7)
+   LELDISKYDKSQ    <74> SGDVSTFIGNTIII  <45> FCGDDSLV  [101]
+   ||+|||||||||         |||+ ||||||||.       |||||||.
+   lEiDfSKFDKSQ         TGdatTylGNTivn       fsGDDSLI
+Score 65.5, Martellivirales (Kitrino +10.7)
+
+>NODE_22613_length_1380_cov_1.836981_SRR10030315_2
+   A:71-82(26.5)      B:133-146(22.4)      C:164-171(16.7)
+   LELDISKYDKSQ  <74> SGDVTTFIGNTVIV  <45> FCGDDSLV  [101]
+   ||+|||||||||       |||+|||||||+|        |||||||.
+   lEiDfSKFDKSQ       TGdatTylGNTivn       fsGDDSLI
+Score 65.6, Martellivirales (Kitrino +11.1)
+
+>NODE_10075_length_1985_cov_2.739896_SRR10030315_2
+   A:180-191(26.5)      B:242-255(24.5)      C:273-280(16.9)
+   LELDISKYDKSQ    <74> SGDVTTFIGNTVII  <45> FCGDDSLL  [101]
+   ||+|||||||||         |||+|||||||+|.       |||||||+
+   lEiDfSKFDKSQ         TGdatTylGNTivn       fsGDDSLI
+Score 68.0, Martellivirales (Kitrino +14.2)
+
+>NODE_6974_length_3327_cov_4.830462_SRR10143185_2
+   A:65-76(27.6)      B:127-140(22.9)      C:158-165(16.1)
+   LEIDISKYDKSQ  <74> SGDASTFFGNTLVL  <45> FAGDDSII  [101]
+   ||||||||||||       |||| ||||||||        |.||||||
+   lEiDfSKFDKSQ       TGdatTylGNTivn       fsGDDSLI
+Score 66.6, Martellivirales (Kitrino +12.1)
+
+>NODE_9608_length_2629_cov_6.756270_SRR10143187_3
+   A:410-421(21.8)      B:472-485(22.4)      C:503-510(13.7)
+   IEVDFSKYDKAQ    <74> SGDASTFFGNTVVL  <45> VAGDDSVI  [101]
+    |+||||||| |         |||| ||||||+|        |.|||| |
+   lEiDfSKFDKSQ         TGdatTylGNTivn       fsGDDSLI
+Score 57.9, Martellivirales (Kitrino +6.3)
+
+>NODE_18411_length_891_cov_375.998804_SRR10323722_1
+   A:23-34(27.3)      B:85-98(17.6)       C:116-123(13.7)
+   LEVDFSKYDKSQ  <74> TGDSFTCLGNTIIS <45> FVGDDSLL  [101]
+   ||+|||||||||       |||.+| ||||||       | |||||+
+   lEiDfSKFDKSQ       TGdatTylGNTivn      fsGDDSLI
+Score 58.6, Martellivirales (Kitrino +10.4)
+
+>NODE_4811_length_4052_cov_5.863899_SRR10143187_2
+   A:1042-1053(20.2)      B:1104-1117(26.0)      C:1135-1142(10.5)
+   VENDISKYDKSM      <74> SGDASTFLGNTIVN    <45> FAGDDHLL  [101]
+   .|+||||||||            |||| |||||||||         |.||| |+
+   lEiDfSKFDKSQ           TGdatTylGNTivn         fsGDDSLI
+Score 56.7, Martellivirales (Kitrino +4.8)
+
+>NODE_23_length_6637_cov_8.452744_SRR10064025_5
+   A:1627-1638(28.5)      B:1689-1702(19.8)      C:1720-1727(17.2)
+   LEIDFSKFDKSQ      <74> SGDSATAFGNTIIS    <45> FIGDDSLI  [101]
+   ||||||||||||           |||. |+||||||          |.||||||
+   lEiDfSKFDKSQ           TGdatTylGNTivn         fsGDDSLI
+Score 65.6, Martellivirales (Kitrino +13.5)
+
+>NODE_9835_length_2717_cov_4.322727_SRR10255703_1
+   A:435-446(27.6)      B:497-510(28.6)      C:528-535(15.3)
+   LEIDLSKFDKSQ    <74> TGDAFTYFGNTIVT  <45> FSGDDSLG  [101]
+   ||||+|||||||         ||||+|||||||||       ||||||| 
+   lEiDfSKFDKSQ         TGdatTylGNTivn       fsGDDSLI
+Score 71.4, Martellivirales (Kitrino +17.7)
+
+>NODE_28410_length_715_cov_1.871212_SRR11613504_3
+   A:43-54(26.5)      B:105-118(22.4)      C:136-143(16.1)
+   LELDISKYDKSQ  <74> SGDVTTFIGNTVIV  <45> FCGDDSVI  [101]
+   ||+|||||||||       |||+|||||||+|        |||||| |
+   lEiDfSKFDKSQ       TGdatTylGNTivn       fsGDDSLI
+Score 65.0, Martellivirales (Kitrino +10.2)
+
+>NODE_820_length_7832_cov_28.015990_SRR10143187_1
+   A:2187-2198(27.6)      B:2249-2262(22.9)      C:2280-2287(16.1)
+   LEIDISKYDKSQ      <74> SGDASTFFGNTLVL    <45> FAGDDSII  [101]
+   ||||||||||||           |||| ||||||||          |.||||||
+   lEiDfSKFDKSQ           TGdatTylGNTivn         fsGDDSLI
+Score 66.6, Martellivirales (Kitrino +12.1)
+
+>NODE_121_length_6025_cov_6.529085_SRR10861970_4
+   A:272-283(27.7)      B:334-347(19.4)      C:365-372(15.8)
+   VEIDFSKFDKSQ    <74> SGDSATAFGNTLIS  <45> FIGDDSLL  [101]
+   .|||||||||||         |||. |+||||||        |.|||||+
+   lEiDfSKFDKSQ         TGdatTylGNTivn       fsGDDSLI
+Score 62.9, Martellivirales (Kitrino +11.4)
+
+>NODE_2773_length_4038_cov_10.287974_SRR11393268_1
+   A:642-653(27.6)      B:704-717(7.5)      C:735-742(13.7)
+   LEIDISKYDKSQ    <74> SGDASTFCQNTRFL <45> FAGDDSWL  [101]
+   ||||||||||||         |||| ||  ||         |.|||| +
+   lEiDfSKFDKSQ         TGdatTylGNTivn      fsGDDSLI
+Score 48.7, Martellivirales (PH5 +5.6)
+
+>NODE_3054_length_1828_cov_3.599549_SRR11613515_4
+   A:15-26(26.5)      B:77-90(22.4)       C:108-115(16.1)
+   LELDISKYDKSQ  <74> SGDVTTFIGNTVIV <45> FCGDDSVI  [101]
+   ||+|||||||||       |||+|||||||+|       |||||| |
+   lEiDfSKFDKSQ       TGdatTylGNTivn      fsGDDSLI
+Score 65.0, Martellivirales (Kitrino +10.2)
+
+>NODE_5166_length_1535_cov_295.375000_SRR11613515_2
+   A:309-320(25.5)      B:371-384(27.9)      C:402-409(16.5)
+   GELDISKYDKSQ    <74> TGTATTWFGNTLVN  <45> FSGDDSIL  [101]
+   .|+|||||||||         || |||||||||||       |||||||+
+   lEiDfSKFDKSQ         TGdatTylGNTivn       fsGDDSLI
+Score 70.0, Martellivirales (Kitrino +17.8)
+
+>NODE_17587_length_1928_cov_4.066451_SRR12681654_2
+   A:59-70(26.5)      B:121-134(22.4)      C:152-159(16.1)
+   LELDISKYDKSQ  <74> SGDVTTFIGNTVIV  <45> FCGDDSVI  [101]
+   ||+|||||||||       |||+|||||||+|        |||||| |
+   lEiDfSKFDKSQ       TGdatTylGNTivn       fsGDDSLI
+Score 65.0, Martellivirales (Kitrino +10.2)
+
+>NODE_9391_length_2399_cov_2.087855_SRR12681654_1
+   A:539-550(13.9)      B:599-612(15.7)      C:632-639(10.0)
+   FGSDLSKQDRQV    <72> TGGPDTSIGNLITS  <47> FLGDDNIN  [101]
+   + +|.||||||.         || |+||+|| |+        |+|||++ 
+   venDysafDssq         SGergTslgNtlvN       flGDDsli
+Score 39.5, PH5 (Martellivirales +3.6)
+
+>NODE_10892_length_1136_cov_2.207216_SRR1276187_1
+   A:153-164(15.7)      B:214-227(19.7)      C:245-252(12.2)
+   LELDSSKYDKSQ    <73> SGAPDTMLGNSIYN  <45> FKGDDNVL  [100]
+   +| | ||||.||         || |+| |||+|+|       |+|||++.
+   venDysafDssq         SGergTslgNtlvN       flGDDsli
+Score 47.7, PH5 (Martellivirales +0.7)
+
+>NODE_226_length_3141_cov_62.288723_SRR1276187_9
+   A:804-815(14.0)      B:865-878(11.6)      C:896-903(10.2)
+   LEVDAKKFDKSQ    <73> SGASDTMFGNNTYT  <45> TKGDDGVI  [100]
+   +| | .|||.||         ||  +| +||  +         +|||.+|
+   venDysafDssq         SGergTslgNtlvN       flGDDsli
+Score 35.8, PH5 (Kitrino +0.2)
+
+>NODE_890_length_4032_cov_4.295322_SRR12855025_1
+   A:766-777(28.5)      B:828-841(19.8)      C:859-866(17.2)
+   LEIDFSKFDKSQ    <74> SGDSATAFGNTIIS  <45> FIGDDSLI  [101]
+   ||||||||||||         |||. |+||||||        |.||||||
+   lEiDfSKFDKSQ         TGdatTylGNTivn       fsGDDSLI
+Score 65.6, Martellivirales (Kitrino +13.5)
+
+>NODE_335_length_2789_cov_3.250188_SRR12904122_3
+   A:271-282(25.1)      B:333-346(23.1)      C:364-371(18.3)
+   LELDVSKYDKSQ    <74> SGDVTTFIGNTFII  <45> FCGDDSLI  [101]
+   ||+| |||||||         |||+||||||| |.       ||||||||
+   lEiDfSKFDKSQ         TGdatTylGNTivn       fsGDDSLI
+Score 66.5, Martellivirales (Kitrino +12.9)
+
+>NODE_181_length_3496_cov_7.152864_SRR12904122_5
+   A:265-276(26.5)      B:327-340(25.3)      C:358-365(16.1)
+   LELDISKYDKSQ    <74> SGDVTTFIGNTIII  <45> FCGDDSIL  [101]
+   ||+|||||||||         |||+|||||||||.       |||||||+
+   lEiDfSKFDKSQ         TGdatTylGNTivn       fsGDDSLI
+Score 68.0, Martellivirales (Kitrino +13.8)
+
+>NODE_152_length_6750_cov_12.227484_SRR12855025_2
+   A:1468-1479(27.8)      B:1524-1537(28.3)      C:1555-1562(15.2)
+   HENDFEAFDQSQ      <68> SGEGPTFDANTECS    <45> YAGDDSAC  [95]
+   +|||||||||||           |||||||||||||.         |||||||.
+   teSDYEAFDqSQ           TGEagTFlFNTmaN         FAGDDMca
+Score 71.3, Tymovirales (Kitrino +23.0)
+
+>NODE_1675_length_2646_cov_21.004367_SRR13215577_9
+   A:267-278(23.8)      B:329-342(18.7)      C:360-367(16.9)
+   LEADVSKFDKSQ    <74> SGDILTFIGNTIIV  <45> FAGDDSLI  [101]
+   || | |||||||         |||  ||||||||        |.||||||
+   lEiDfSKFDKSQ         TGdatTylGNTivn       fsGDDSLI
+Score 59.3, Martellivirales (Kitrino +8.9)
+
+>NODE_5647_length_2275_cov_1.320291_SRR1777513_2
+   A:266-277(26.0)      B:328-341(24.5)      C:359-366(15.8)
+   YELDISKYDKSQ    <74> SGDVTTFIGNTVII  <45> FCGDDSIV  [101]
+   +|+|||||||||         |||+|||||||+|.       |||||||.
+   lEiDfSKFDKSQ         TGdatTylGNTivn       fsGDDSLI
+Score 66.4, Martellivirales (Kitrino +11.3)
+
+>NODE_17046_length_1381_cov_1.986963_SRR1777513_1
+   A:190-201(11.0)      B:250-263(15.7)      C:283-290(10.0)
+   LEADLEKQDRQS    <72> TGDPLTTKTNTLRN  <47> FHGDDNLL  [101]
+   +| |..|||||          |||| |+  ||+.|       | |||+|.
+   venDysafDssq         SGergTslgNtlvN       flGDDsli
+Score 36.7, PH5 (Martellivirales +1.3)
+
+>NODE_25744_length_1126_cov_1.846520_SRR1777513_1
+   A:124-135(26.2)      B:186-199(24.1)      C:217-224(14.5)
+   LENDLSKYDKSQ    <74> SGDATTAFGNVLLN  <45> FMGDDSLI  [101]
+   ||+|+|||||||         ||||||+|||.| |       | ||||||
+   lEiDfSKFDKSQ         TGdatTylGNTivn       fsGDDSLI
+Score 64.8, Martellivirales (PH5 +11.5)
+
+>NODE_14749_length_685_cov_2.733553_SRR1778742_1
+   A:60-71(26.6)      B:122-135(22.3)      C:153-160(16.9)
+   LEVDISKYDKSQ  <74> SGDAATFFGNTMVL  <45> FAGDDSLI  [101]
+   ||+|||||||||       |||| ||||||.|        |.||||||
+   lEiDfSKFDKSQ       TGdatTylGNTivn       fsGDDSLI
+Score 65.8, Martellivirales (Kitrino +12.5)
+
+>NODE_1429_length_1229_cov_177.624132_SRR1778741_1
+   A:300-311(26.6)      B:362-375(22.3)      C:393-400(16.9)
+   LEVDISKYDKSQ    <74> SGDAATFFGNTMVL  <45> FAGDDSLI  [101]
+   ||+|||||||||         |||| ||||||.|        |.||||||
+   lEiDfSKFDKSQ         TGdatTylGNTivn       fsGDDSLI
+Score 65.8, Martellivirales (Kitrino +12.5)
+
+>NODE_8333_length_996_cov_1.980413_SRR1778742_1
+   A:126-137(26.6)      B:188-201(22.3)      C:219-226(16.9)
+   LEVDISKYDKSQ    <74> SGDAATFFGNTMVL  <45> FAGDDSLI  [101]
+   ||+|||||||||         |||| ||||||.|        |.||||||
+   lEiDfSKFDKSQ         TGdatTylGNTivn       fsGDDSLI
+Score 65.8, Martellivirales (Kitrino +12.5)
+
+>NODE_553_length_1643_cov_108.355045_SRR1778741_2
+   A:324-335(26.6)      B:386-399(22.3)      C:417-424(16.9)
+   LEVDISKYDKSQ    <74> SGDAATFFGNTMVL  <45> FAGDDSLI  [101]
+   ||+|||||||||         |||| ||||||.|        |.||||||
+   lEiDfSKFDKSQ         TGdatTylGNTivn       fsGDDSLI
+Score 65.8, Martellivirales (Kitrino +12.5)
+
+>NODE_1697_length_1865_cov_2.125280_SRR1778742_2
+   A:308-319(26.6)      B:370-383(22.3)      C:401-408(16.9)
+   LEVDISKYDKSQ    <74> SGDAATFFGNTMVL  <45> FAGDDSLI  [101]
+   ||+|||||||||         |||| ||||||.|        |.||||||
+   lEiDfSKFDKSQ         TGdatTylGNTivn       fsGDDSLI
+Score 65.8, Martellivirales (Kitrino +12.5)
+
+>NODE_16601_length_826_cov_3.053178_SRR1778782_2
+   A:73-84(26.6)      B:135-148(22.3)      C:166-173(16.9)
+   LEVDISKYDKSQ  <74> SGDAATFFGNTMVL  <45> FAGDDSLI  [101]
+   ||+|||||||||       |||| ||||||.|        |.||||||
+   lEiDfSKFDKSQ       TGdatTylGNTivn       fsGDDSLI
+Score 65.8, Martellivirales (Kitrino +12.5)
+
+>NODE_8972_length_1179_cov_4.742883_SRR1778782_1
+   A:173-184(26.6)      B:235-248(22.3)      C:266-273(16.9)
+   LEVDISKYDKSQ    <74> SGDAATFFGNTMVL  <45> FAGDDSLI  [101]
+   ||+|||||||||         |||| ||||||.|        |.||||||
+   lEiDfSKFDKSQ         TGdatTylGNTivn       fsGDDSLI
+Score 65.8, Martellivirales (Kitrino +12.5)
+
+>NODE_18363_length_834_cov_2.643132_SRR1778783_2
+   A:80-91(26.6)      B:142-155(22.3)      C:173-180(16.9)
+   LEVDISKYDKSQ  <74> SGDAATFFGNTMVL  <45> FAGDDSLI  [101]
+   ||+|||||||||       |||| ||||||.|        |.||||||
+   lEiDfSKFDKSQ       TGdatTylGNTivn       fsGDDSLI
+Score 65.8, Martellivirales (Kitrino +12.5)
+
+>NODE_3608_length_1682_cov_2.936079_SRR1778782_2
+   A:323-334(26.6)      B:385-398(22.3)      C:416-423(16.9)
+   LEVDISKYDKSQ    <74> SGDAATFFGNTMVL  <45> FAGDDSLI  [101]
+   ||+|||||||||         |||| ||||||.|        |.||||||
+   lEiDfSKFDKSQ         TGdatTylGNTivn       fsGDDSLI
+Score 65.8, Martellivirales (Kitrino +12.5)
+
+>NODE_7249_length_1433_cov_3.153846_SRR1778783_1
+   A:261-272(26.6)      B:323-336(22.3)      C:354-361(16.9)
+   LEVDISKYDKSQ    <74> SGDAATFFGNTMVL  <45> FAGDDSLI  [101]
+   ||+|||||||||         |||| ||||||.|        |.||||||
+   lEiDfSKFDKSQ         TGdatTylGNTivn       fsGDDSLI
+Score 65.8, Martellivirales (Kitrino +12.5)
+
+>NODE_552_length_1643_cov_205.173691_SRR1778741_3
+   A:324-335(26.6)      B:386-399(22.3)      C:417-424(16.9)
+   LEVDISKYDKSQ    <74> SGDAATFFGNTMVL  <45> FAGDDSLI  [101]
+   ||+|||||||||         |||| ||||||.|        |.||||||
+   lEiDfSKFDKSQ         TGdatTylGNTivn       fsGDDSLI
+Score 65.8, Martellivirales (Kitrino +12.5)
+
+>NODE_221_length_1727_cov_140.629187_SRR1778784_1
+   A:106-117(26.6)      B:168-181(22.3)      C:199-206(16.9)
+   LEVDISKYDKSQ    <74> SGDAATFFGNTMVL  <45> FAGDDSLI  [101]
+   ||+|||||||||         |||| ||||||.|        |.||||||
+   lEiDfSKFDKSQ         TGdatTylGNTivn       fsGDDSLI
+Score 65.8, Martellivirales (Kitrino +12.5)
+
+>NODE_2158_length_792_cov_87.880597_SRR1778784_1
+   A:108-119(26.6)      B:170-183(22.3)      C:201-208(16.9)
+   LEVDISKYDKSQ    <74> SGDAATFFGNTMVL  <45> FAGDDSLI  [101]
+   ||+|||||||||         |||| ||||||.|        |.||||||
+   lEiDfSKFDKSQ         TGdatTylGNTivn       fsGDDSLI
+Score 65.8, Martellivirales (Kitrino +12.5)
+
+>NODE_2374_length_759_cov_74.265625_SRR1778784_1
+   A:103-114(26.6)      B:165-178(22.3)      C:196-203(16.9)
+   LEVDISKYDKSQ    <74> SGDAATFFGNTMVL  <45> FAGDDSLI  [101]
+   ||+|||||||||         |||| ||||||.|        |.||||||
+   lEiDfSKFDKSQ         TGdatTylGNTivn       fsGDDSLI
+Score 65.8, Martellivirales (Kitrino +12.5)
+
+>NODE_492_length_1392_cov_121.002244_SRR1778784_1
+   A:258-269(26.6)      B:320-333(22.3)      C:351-358(16.9)
+   LEVDISKYDKSQ    <74> SGDAATFFGNTMVL  <45> FAGDDSLI  [101]
+   ||+|||||||||         |||| ||||||.|        |.||||||
+   lEiDfSKFDKSQ         TGdatTylGNTivn       fsGDDSLI
+Score 65.8, Martellivirales (Kitrino +12.5)
+
+>NODE_769_length_1207_cov_80.491319_SRR1778784_1
+   C:259-266(3.3)      A:302-313(4.7)      B:364-377(10.2)
+   VAMDRMLS       <51> LEVDISKYDKSQ   <74> SGDAATFFGNTMVL  [119]
+   +| | | +            .| |   +| ||        || | ||+ |||  
+   FAGDDMca            teSDYEAFDqSQ        TGEagTFlFNTmaN
+Score 18.3 permuted, Tymovirales
+
+>NODE_19809_length_905_cov_3.705882_SRR1778785_1
+   A:108-119(26.6)      B:170-183(22.3)      C:201-208(16.9)
+   LEVDISKYDKSQ    <74> SGDAATFFGNTMVL  <45> FAGDDSLI  [101]
+   ||+|||||||||         |||| ||||||.|        |.||||||
+   lEiDfSKFDKSQ         TGdatTylGNTivn       fsGDDSLI
+Score 65.8, Martellivirales (Kitrino +12.5)
+
+>NODE_18764_length_948_cov_8.136618_SRR1778785_1
+   A:108-119(26.6)      B:170-183(22.3)      C:201-208(16.9)
+   LEVDISKYDKSQ    <74> SGDAATFFGNTMVL  <45> FAGDDSLI  [101]
+   ||+|||||||||         |||| ||||||.|        |.||||||
+   lEiDfSKFDKSQ         TGdatTylGNTivn       fsGDDSLI
+Score 65.8, Martellivirales (Kitrino +12.5)
+
+>NODE_9112_length_1566_cov_11.048974_SRR1778785_1
+   A:302-313(26.6)      B:364-377(22.3)      C:395-402(16.9)
+   LEVDISKYDKSQ    <74> SGDAATFFGNTMVL  <45> FAGDDSLI  [101]
+   ||+|||||||||         |||| ||||||.|        |.||||||
+   lEiDfSKFDKSQ         TGdatTylGNTivn       fsGDDSLI
+Score 65.8, Martellivirales (Kitrino +12.5)
+
+>NODE_769_length_4549_cov_5.440295_SRR1781945_6
+   A:259-270(26.5)      B:321-334(24.9)      C:352-359(15.8)
+   LELDISKYDKSQ    <74> SGDVTTFIGNTLII  <45> FCGDDSIV  [101]
+   ||+|||||||||         |||+|||||||||.       |||||||.
+   lEiDfSKFDKSQ         TGdatTylGNTivn       fsGDDSLI
+Score 67.3, Martellivirales (Kitrino +12.3)
+
+>NODE_3550_length_2561_cov_10.754831_SRR1781945_1
+   A:139-150(26.5)      B:201-214(24.5)      C:232-239(16.1)
+   LELDISKYDKSQ    <74> SGDVTTFIGNTVII  <45> FCGDDSIL  [101]
+   ||+|||||||||         |||+|||||||+|.       |||||||+
+   lEiDfSKFDKSQ         TGdatTylGNTivn       fsGDDSLI
+Score 67.2, Martellivirales (Kitrino +13.9)
+
+>NODE_8999_length_1578_cov_4.350624_SRR1778785_2
+   A:302-313(26.6)      B:364-377(22.3)      C:395-402(16.9)
+   LEVDISKYDKSQ    <74> SGDAATFFGNTMVL  <45> FAGDDSLI  [101]
+   ||+|||||||||         |||| ||||||.|        |.||||||
+   lEiDfSKFDKSQ         TGdatTylGNTivn       fsGDDSLI
+Score 65.8, Martellivirales (Kitrino +12.5)
+
+>NODE_4220_length_2397_cov_71.700000_SRR1781945_3
+   A:22-33(26.5)      B:84-97(24.9)       C:115-122(15.8)
+   LELDISKYDKSQ  <74> SGDVTTFIGNTLII <45> FCGDDSIV  [101]
+   ||+|||||||||       |||+|||||||||.      |||||||.
+   lEiDfSKFDKSQ       TGdatTylGNTivn      fsGDDSLI
+Score 67.3, Martellivirales (Kitrino +12.3)
+
+>NODE_12036_length_1567_cov_2.771812_SRR1781945_1
+   A:258-269(26.5)      B:320-333(24.9)      C:351-358(15.8)
+   LELDISKYDKSQ    <74> SGDVTTFIGNTLII  <45> FCGDDSIV  [101]
+   ||+|||||||||         |||+|||||||||.       |||||||.
+   lEiDfSKFDKSQ         TGdatTylGNTivn       fsGDDSLI
+Score 67.3, Martellivirales (Kitrino +12.3)
+
+>NODE_67422_length_708_cov_0.973059_SRR1781945_1
+   A:121-132(27.0)      B:183-196(24.7)      C:216-223(12.6)
+   KEVDFSKFDKSQ    <74> NGDANTYLGNTLVT  <47> ATGDDSLI  [103]
+   +|+|||||||||          |||||||||||||       . ||||||
+   lEiDfSKFDKSQ         TGdatTylGNTivn       fsGDDSLI
+Score 64.3, Martellivirales (Kitrino +14.5)
+
+>NODE_314_length_4508_cov_61.286391_SRR1782579_7
+   A:259-270(26.5)      B:321-334(24.9)      C:352-359(15.8)
+   LELDISKYDKSQ    <74> SGDVTTFIGNTLII  <45> FCGDDSIV  [101]
+   ||+|||||||||         |||+|||||||||.       |||||||.
+   lEiDfSKFDKSQ         TGdatTylGNTivn       fsGDDSLI
+Score 67.3, Martellivirales (Kitrino +12.3)
+
+>NODE_469_length_3964_cov_4.766915_SRR1782579_8
+   A:265-276(26.5)      B:327-340(24.5)      C:358-365(16.1)
+   LELDISKYDKSQ    <74> SGDVTTFIGNTVII  <45> FCGDDSIL  [101]
+   ||+|||||||||         |||+|||||||+|.       |||||||+
+   lEiDfSKFDKSQ         TGdatTylGNTivn       fsGDDSLI
+Score 67.2, Martellivirales (Kitrino +13.9)
+
+>NODE_45132_length_647_cov_1.068421_SRR1782579_1
+   A:69-80(24.2)      B:131-144(23.1)      C:162-169(18.3)
+   VELDVSKYDKSQ  <74> SGDVTTFIGNTFII  <45> FCGDDSLI  [101]
+   .|+| |||||||       |||+||||||| |.       ||||||||
+   lEiDfSKFDKSQ       TGdatTylGNTivn       fsGDDSLI
+Score 65.6, Martellivirales (Kitrino +11.8)
+
+>NODE_5581_length_1353_cov_1.107367_SRR1782604_1
+   A:112-123(26.5)      B:174-187(24.9)      C:205-212(15.8)
+   LELDISKYDKSQ    <74> SGDVTTFIGNTLII  <45> FCGDDSIV  [101]
+   ||+|||||||||         |||+|||||||||.       |||||||.
+   lEiDfSKFDKSQ         TGdatTylGNTivn       fsGDDSLI
+Score 67.3, Martellivirales (Kitrino +12.3)
+
+>NODE_9883_length_1244_cov_0.772922_SRR1782579_1
+   A:173-184(27.0)      B:235-248(29.3)      C:268-275(16.8)
+   KEVDFSKFDKSQ    <74> TGDANTYLGNTLVT  <47> ASGDDSLI  [103]
+   +|+|||||||||         ||||||||||||||       .|||||||
+   lEiDfSKFDKSQ         TGdatTylGNTivn       fsGDDSLI
+Score 73.1, Martellivirales (Kitrino +16.7)
+
+>NODE_18697_length_845_cov_0.726562_SRR1782604_1
+   A:13-24(24.2)      B:75-88(23.1)       C:106-113(18.3)
+   VELDVSKYDKSQ  <74> SGDVTTFIGNTFII <45> FCGDDSLI  [101]
+   .|+| |||||||       |||+||||||| |.      ||||||||
+   lEiDfSKFDKSQ       TGdatTylGNTivn      fsGDDSLI
+Score 65.6, Martellivirales (Kitrino +11.8)
+
+>NODE_715_length_2832_cov_33.205082_SRR1782604_1
+   A:199-210(26.5)      B:261-274(24.9)      C:292-299(15.8)
+   LELDISKYDKSQ    <74> SGDVTTFIGNTLII  <45> FCGDDSIV  [101]
+   ||+|||||||||         |||+|||||||||.       |||||||.
+   lEiDfSKFDKSQ         TGdatTylGNTivn       fsGDDSLI
+Score 67.3, Martellivirales (Kitrino +12.3)
+
+>NODE_10151_length_1078_cov_2.825175_SRR1782604_3
+   A:109-120(27.2)      B:171-184(24.1)      C:202-209(14.5)
+   LENDFSKYDKSQ    <74> SGDATTAFGNVLLN  <45> FMGDDSLI  [101]
+   ||+|||||||||         ||||||+|||.| |       | ||||||
+   lEiDfSKFDKSQ         TGdatTylGNTivn       fsGDDSLI
+Score 65.7, Martellivirales (PH5 +11.0)
+
+>NODE_1255_length_2131_cov_5.094450_SRR1785207_3
+   A:3-14(2.5)       B:60-73(14.7)       C:91-98(10.5)
+   SKYDKSQNEFHC <69> SGDVTTFIGNTVII <45> FCGDDSIL  [96]
+      | |. | |+      ||| .|  |||.|        +|||+++
+   velDasrwDaHv      SGDmdTslGNslin      vdGDDclv
+Score 27.7, PH14
+
+>NODE_423_length_2392_cov_1.083801_SRR1785209_2
+   A:259-270(26.5)      B:321-334(24.9)      C:352-359(15.8)
+   LELDISKYDKSQ    <74> SGDVTTFIGNTLII  <45> FCGDDSIV  [101]
+   ||+|||||||||         |||+|||||||||.       |||||||.
+   lEiDfSKFDKSQ         TGdatTylGNTivn       fsGDDSLI
+Score 67.3, Martellivirales (Kitrino +12.3)
+
+>NODE_536_length_3035_cov_17.189993_SRR1785207_2
+   A:259-270(26.5)      B:321-334(24.9)      C:352-359(15.8)
+   LELDISKYDKSQ    <74> SGDVTTFIGNTLII  <45> FCGDDSIV  [101]
+   ||+|||||||||         |||+|||||||||.       |||||||.
+   lEiDfSKFDKSQ         TGdatTylGNTivn       fsGDDSLI
+Score 67.3, Martellivirales (Kitrino +12.3)
+
+>NODE_1686_length_3834_cov_40.916689_SRR1785350_2
+   A:259-270(26.5)      B:321-334(24.9)      C:352-359(15.8)
+   LELDISKYDKSQ    <74> SGDVTTFIGNTLII  <45> FCGDDSIV  [101]
+   ||+|||||||||         |||+|||||||||.       |||||||.
+   lEiDfSKFDKSQ         TGdatTylGNTivn       fsGDDSLI
+Score 67.3, Martellivirales (Kitrino +12.3)
+
+>NODE_2051_length_3560_cov_5.118289_SRR1785350_2
+   A:265-276(26.5)      B:327-340(24.5)      C:358-365(16.1)
+   LELDISKYDKSQ    <74> SGDVTTFIGNTVII  <45> FCGDDSIL  [101]
+   ||+|||||||||         |||+|||||||+|.       |||||||+
+   lEiDfSKFDKSQ         TGdatTylGNTivn       fsGDDSLI
+Score 67.2, Martellivirales (Kitrino +13.9)
+
+>NODE_34453_length_1159_cov_0.973198_SRR1785350_1
+   A:8-19(24.2)      B:70-83(23.1)       C:101-108(18.3)
+   VELDVSKYDKSQ <74> SGDVTTFIGNTFII <45> FCGDDSLI  [101]
+   .|+| |||||||      |||+||||||| |.      ||||||||
+   lEiDfSKFDKSQ      TGdatTylGNTivn      fsGDDSLI
+Score 65.6, Martellivirales (Kitrino +11.8)
+
+>NODE_2929_length_2368_cov_3.952443_SRR2006803_1
+   A:669-680(27.6)      B:731-744(21.5)      C:762-769(18.7)
+   LEIDISKYDKSQ    <74> SGNASTYLGNTVVL  <45> FSGDDSLI  [101]
+   ||||||||||||         ||.| ||||||+|        ||||||||
+   lEiDfSKFDKSQ         TGdatTylGNTivn       fsGDDSLI
+Score 67.8, Martellivirales (Kitrino +14.9)
+
+>NODE_49_length_6528_cov_15.603121_SRR2086713_7
+   A:581-592(27.5)      B:643-656(23.1)      C:674-681(15.1)
+   LEVDFSKFDKSQ    <74> SGDSATAFGNTLIT  <45> FVGDDSLI  [101]
+   ||+|||||||||         |||. |+|||||||       | ||||||
+   lEiDfSKFDKSQ         TGdatTylGNTivn       fsGDDSLI
+Score 65.8, Martellivirales (Kitrino +14.2)
+
+>NODE_489_length_4001_cov_9.803345_SRR2086716_3
+   A:771-782(27.5)      B:833-846(23.1)      C:864-871(15.1)
+   LEVDFSKFDKSQ    <74> SGDSATAFGNTLIT  <45> FVGDDSLI  [101]
+   ||+|||||||||         |||. |+|||||||       | ||||||
+   lEiDfSKFDKSQ         TGdatTylGNTivn       fsGDDSLI
+Score 65.8, Martellivirales (Kitrino +14.2)
+
+>NODE_313_length_4960_cov_5.742508_SRR2086712_5
+   A:1086-1097(27.5)      B:1148-1161(23.1)      C:1179-1186(15.1)
+   LEVDFSKFDKSQ      <74> SGDSATAFGNTLIT    <45> FVGDDSLI  [101]
+   ||+|||||||||           |||. |+|||||||         | ||||||
+   lEiDfSKFDKSQ           TGdatTylGNTivn         fsGDDSLI
+Score 65.8, Martellivirales (Kitrino +14.2)
+
+>NODE_5591_length_2813_cov_4.461929_SRR3193092_1
+   A:261-272(25.3)      B:323-336(7.9)      C:354-361(17.9)
+   LEVDMSKYDKSQ    <74> SGDASTFTMNTFYL <45> FSGDDSII  [101]
+   ||+| |||||||         |||| ||  ||         ||||||||
+   lEiDfSKFDKSQ         TGdatTylGNTivn      fsGDDSLI
+Score 51.1, Martellivirales (Kitrino +2.0)
+
+>NODE_4026_length_3948_cov_4.212176_SRR3624128_2
+   A:266-277(26.5)      B:328-341(24.5)      C:359-366(14.7)
+   LELDISKYDKSQ    <74> SGDVTTFIGNTVII  <45> FCGDDSVL  [101]
+   ||+|||||||||         |||+|||||||+|.       |||||| +
+   lEiDfSKFDKSQ         TGdatTylGNTivn       fsGDDSLI
+Score 65.8, Martellivirales (Kitrino +11.4)
+
+>NODE_67416_length_1127_cov_1.616604_SRR3624128_1
+   A:224-235(16.9)      B:284-297(15.6)      C:317-324(8.4)
+   LENDLSRQDRQT    <72> TGQCTTAVGNWLVQ  <47> MLGDDHLS  [101]
+   +|||.|.||||+         ||| +|+.|||++        .+||| | 
+   venDysafDssq         SGergTslgNtlvN       flGDDsli
+Score 40.9, PH5 (Martellivirales +2.6)
+
+>NODE_836_length_7143_cov_21.835073_SRR3624128_14
+   A:279-290(27.5)      B:341-354(19.7)      C:372-379(11.2)
+   LENDFSKFDKSQ    <74> SGEATTLLGNTIVQ  <45> FVGDDSAI  [101]
+   ||+|||||||||         || |||.||||||        | |||| |
+   lEiDfSKFDKSQ         TGdatTylGNTivn       fsGDDSLI
+Score 58.4, Martellivirales (PH5 +4.5)
+
+>NODE_7773_length_953_cov_1580.687651_SRR4242136_1
+   A:145-156(25.1)      B:207-220(24.5)      C:238-245(16.9)
+   LELDVSKYDKSQ    <74> SGDVTTFIGNTVII  <45> FCGDDSLL  [101]
+   ||+| |||||||         |||+|||||||+|.       |||||||+
+   lEiDfSKFDKSQ         TGdatTylGNTivn       fsGDDSLI
+Score 66.5, Martellivirales (Kitrino +13.7)
+
+>NODE_535_length_5799_cov_52.077574_SRR4242136_6
+   A:271-282(25.1)      B:333-346(23.1)      C:364-371(18.3)
+   LELDVSKYDKSQ    <74> SGDVTTFIGNTFII  <45> FCGDDSLI  [101]
+   ||+| |||||||         |||+||||||| |.       ||||||||
+   lEiDfSKFDKSQ         TGdatTylGNTivn       fsGDDSLI
+Score 66.5, Martellivirales (Kitrino +12.9)
+
+>NODE_278_length_4826_cov_1224.271215_SRR4435986_3
+   A:839-850(23.0)      B:901-914(23.3)      C:931-938(15.1)
+   LEIDIGKYDKSQ    <74> SGDASTFFGNTIVL  <44> FSGDDSVL  [100]
+   ||||| ||||||         |||| ||||||||        |||||| +
+   lEiDfSKFDKSQ         TGdatTylGNTivn       fsGDDSLI
+Score 61.4, Martellivirales (Nidovirales +8.7)
+
+>NODE_216_length_6091_cov_154.402727_SRR4435988_4
+   A:830-841(23.0)      B:892-905(23.3)      C:922-929(15.1)
+   LEIDIGKYDKSQ    <74> SGDASTFFGNTIVL  <44> FSGDDSVL  [100]
+   ||||| ||||||         |||| ||||||||        |||||| +
+   lEiDfSKFDKSQ         TGdatTylGNTivn       fsGDDSLI
+Score 61.4, Martellivirales (Nidovirales +8.7)
+
+>NODE_327_length_4755_cov_481.633818_SRR4435989_1
+   A:826-837(23.0)      B:888-901(23.3)      C:918-925(15.1)
+   LEIDIGKYDKSQ    <74> SGDASTFFGNTIVL  <44> FSGDDSVL  [100]
+   ||||| ||||||         |||| ||||||||        |||||| +
+   lEiDfSKFDKSQ         TGdatTylGNTivn       fsGDDSLI
+Score 61.4, Martellivirales (Nidovirales +8.7)
+
+>NODE_75_length_6147_cov_733.997199_SRR4435991_1
+   A:847-858(23.0)      B:909-922(23.3)      C:939-946(15.1)
+   LEIDIGKYDKSQ    <74> SGDASTFFGNTIVL  <44> FSGDDSVL  [100]
+   ||||| ||||||         |||| ||||||||        |||||| +
+   lEiDfSKFDKSQ         TGdatTylGNTivn       fsGDDSLI
+Score 61.4, Martellivirales (Nidovirales +8.7)
+
+>NODE_24086_length_636_cov_1.887299_SRR5150722_1
+   A:61-72(26.1)      B:123-136(22.2)      C:154-161(14.2)
+   LEIDVSKYDKSQ  <74> SGDSATFFGNTIVL  <45> YSGDDSLL  [101]
+   |||| |||||||       |||. ||||||||         ||||||+
+   lEiDfSKFDKSQ       TGdatTylGNTivn       fsGDDSLI
+Score 62.6, Martellivirales (Kitrino +12.7)
+
+>NODE_6590_length_1491_cov_2.602368_SRR5892088_3
+   A:321-332(27.8)      B:377-390(28.3)      C:408-415(15.2)
+   HENDFEAFDQSQ    <68> SGEGPTFDANTECS  <45> YAGDDSAC  [95]
+   +|||||||||||         |||||||||||||.       |||||||.
+   teSDYEAFDqSQ         TGEagTFlFNTmaN       FAGDDMca
+Score 71.3, Tymovirales (Kitrino +23.0)
+
+>NODE_6364_length_1522_cov_2.003408_SRR5892088_1
+   A:397-408(26.6)      B:459-472(10.9)      C:488-495(18.7)
+   LEVDISKYDKSQ    <74> SGDPWTYAGNTFYL  <43> FSGDDSLI  [99]
+   ||+|||||||||         |||+ || |||          ||||||||
+   lEiDfSKFDKSQ         TGdatTylGNTivn       fsGDDSLI
+Score 56.2, Martellivirales (Kitrino +1.5)
+
+>NODE_144_length_1806_cov_30.942319_SRR6038364_2
+   A:265-276(26.5)      B:327-340(24.5)      C:358-365(16.1)
+   LELDISKYDKSQ    <74> SGDVTTFIGNTVII  <45> FCGDDSIL  [101]
+   ||+|||||||||         |||+|||||||+|.       |||||||+
+   lEiDfSKFDKSQ         TGdatTylGNTivn       fsGDDSLI
+Score 67.2, Martellivirales (Kitrino +13.9)
+
+>NODE_559_length_5462_cov_32.688394_SRR5186269_6
+   A:1184-1195(22.4)      B:1246-1259(25.1)      C:1299-1306(13.8)
+   HEVDMSKYDKSQ      <74> SGDPMTFLGNTLIN    <67> YAGDDSLI  [123]
+    |+| |||||||           |||+.|||||||||          .||||||
+   lEiDfSKFDKSQ           TGdatTylGNTivn         fsGDDSLI
+Score 61.3, Martellivirales (Kitrino +4.8)
+
+>NODE_321_length_4220_cov_236.285474_SRR5892088_2
+   A:820-831(28.5)      B:882-895(19.8)      C:913-920(17.2)
+   LEIDFSKFDKSQ    <74> SGDSATAFGNTIIS  <45> FIGDDSLI  [101]
+   ||||||||||||         |||. |+||||||        |.||||||
+   lEiDfSKFDKSQ         TGdatTylGNTivn       fsGDDSLI
+Score 65.6, Martellivirales (Kitrino +13.5)
+
+>NODE_610_length_3777_cov_6.934865_SRR6973926_2
+   A:265-276(25.8)      B:327-340(27.9)      C:358-365(17.0)
+   LEMDLSKYDKSQ    <74> SGDVTTFIGNTIVN  <45> FGGDDSLI  [101]
+   ||.|+|||||||         |||+||||||||||       |.||||||
+   lEiDfSKFDKSQ         TGdatTylGNTivn       fsGDDSLI
+Score 70.7, Martellivirales (Kitrino +15.6)
+
+>NODE_15872_length_1547_cov_1.932653_SRR7007216_2
+   A:268-279(18.2)      B:330-343(6.2)      C:361-368(13.5)
+   LENDFGKYDKSQ    <74> SGGSATAYQNGSEN <45> FMGDDSLA  [101]
+   +|||| |||.||         ||   |+  |   |      |+|||||.
+   venDysafDssq         SGergTslgNtlvN      flGDDsli
+Score 37.9, PH5 (PH15 +1.9)
+
+>NODE_25366_length_1289_cov_2.156766_SRR7007216_3
+   A:230-241(10.5)      B:286-299(16.0)      C:321-328(9.7)
+   YNDDFIAFDGTQ    <68> SGFKPTWVFNTLDN  <49> FSGDDSNH  [99]
+   . .|| ||| ||         ||   ||.|||+ |       |+||||  
+   venDysafDssq         SGergTslgNtlvN       flGDDsli
+Score 36.2, PH5 (Kitrino +1.3)
+
+>NODE_46_length_7255_cov_4.852187_SRR6660821_13
+   A:1580-1591(27.5)      B:1642-1655(19.4)      C:1673-1680(15.8)
+   LEVDFSKFDKSQ      <74> SGDSATAFGNTLIS    <45> FIGDDSLL  [101]
+   ||+|||||||||           |||. |+||||||          |.|||||+
+   lEiDfSKFDKSQ           TGdatTylGNTivn         fsGDDSLI
+Score 62.8, Martellivirales (Kitrino +12.0)
+
+>k141_112743_flag=1_multi=2.0000_len=612_SRR7288019_1
+   A:85-96(26.5)      B:147-160(24.5)      C:178-185(16.9)
+   LELDISKYDKSQ  <74> SGDVTTFIGNTVII  <45> FCGDDSLL  [101]
+   ||+|||||||||       |||+|||||||+|.       |||||||+
+   lEiDfSKFDKSQ       TGdatTylGNTivn       fsGDDSLI
+Score 68.0, Martellivirales (Kitrino +14.2)
+
+>k141_83_flag=1_multi=17.0000_len=6273_SRR7288019_2
+   A:271-282(25.1)      B:333-346(23.1)      C:364-371(18.3)
+   LELDVSKYDKSQ    <74> SGDVTTFIGNTFII  <45> FCGDDSLI  [101]
+   ||+| |||||||         |||+||||||| |.       ||||||||
+   lEiDfSKFDKSQ         TGdatTylGNTivn       fsGDDSLI
+Score 66.5, Martellivirales (Kitrino +12.9)
+
+>k141_144373_flag=1_multi=35.0000_len=5656_SRR7288019_9
+   A:265-276(26.5)      B:327-340(25.3)      C:358-365(16.1)
+   LELDISKYDKSQ    <74> SGDVTTFIGNTIII  <45> FCGDDSIL  [101]
+   ||+|||||||||         |||+|||||||||.       |||||||+
+   lEiDfSKFDKSQ         TGdatTylGNTivn       fsGDDSLI
+Score 68.0, Martellivirales (Kitrino +13.8)
+
+>NODE_3224_length_2496_cov_5.112443_SRR7976660_4
+   A:181-192(25.8)      B:243-256(27.9)      C:274-281(17.0)
+   LEMDLSKYDKSQ    <74> SGDVTTFIGNTIVN  <45> FGGDDSLI  [101]
+   ||.|+|||||||         |||+||||||||||       |.||||||
+   lEiDfSKFDKSQ         TGdatTylGNTivn       fsGDDSLI
+Score 70.7, Martellivirales (Kitrino +15.6)
+
+>NODE_46345_length_849_cov_2.742228_SRR7976667_2
+   A:179-190(18.2)      B:239-252(26.2)      C:272-279(15.6)
+   AEDDLKKQDRQT    <72> TGQATTALGNVIVN  <47> VLGDDNLI  [101]
+    |+|+ ||||||         ||||||+|||.|||       |+||||||
+   lEiDfSKFDKSQ         TGdatTylGNTivn       fsGDDSLI
+Score 60.0, Martellivirales (PH5 +13.1)
+
+>NODE_71_length_6076_cov_12.863977_SRR7976667_3
+   A:265-276(25.8)      B:327-340(27.9)      C:358-365(17.0)
+   LEMDLSKYDKSQ    <74> SGDVTTFIGNTIVN  <45> FGGDDSLI  [101]
+   ||.|+|||||||         |||+||||||||||       |.||||||
+   lEiDfSKFDKSQ         TGdatTylGNTivn       fsGDDSLI
+Score 70.7, Martellivirales (Kitrino +15.6)
+
+>NODE_867_length_5267_cov_11.128131_SRR8455902_2
+   A:264-275(25.3)      B:326-339(27.4)      C:357-364(17.0)
+   YEMDLSKYDKSQ    <74> SGDVTTFIGNTLVN  <45> FGGDDSLI  [101]
+   +|.|+|||||||         |||+||||||||||       |.||||||
+   lEiDfSKFDKSQ         TGdatTylGNTivn       fsGDDSLI
+Score 69.7, Martellivirales (Kitrino +13.8)
+
+>NODE_1022_length_5282_cov_35.105476_SRR8455903_2
+   A:264-275(25.3)      B:326-339(27.4)      C:357-364(17.0)
+   YEMDLSKYDKSQ    <74> SGDVTTFIGNTLVN  <45> FGGDDSLI  [101]
+   +|.|+|||||||         |||+||||||||||       |.||||||
+   lEiDfSKFDKSQ         TGdatTylGNTivn       fsGDDSLI
+Score 69.7, Martellivirales (Kitrino +13.8)
+
+>NODE_419_length_5252_cov_10.065507_SRR8455904_2
+   A:264-275(25.3)      B:326-339(27.4)      C:357-364(17.0)
+   YEMDLSKYDKSQ    <74> SGDVTTFIGNTLVN  <45> FGGDDSLI  [101]
+   +|.|+|||||||         |||+||||||||||       |.||||||
+   lEiDfSKFDKSQ         TGdatTylGNTivn       fsGDDSLI
+Score 69.7, Martellivirales (Kitrino +13.8)
+
+>NODE_33915_length_1182_cov_2.059729_SRR8455904_1
+   A:232-243(19.0)      B:292-305(16.0)      C:325-332(11.3)
+   GENDFSKYDKSQ    <72> TGAQDTSAFNSTTN  <47> FLGDDVVL  [101]
+    ||||||||.||         ||  +|| ||+ +|       |+||| +.
+   venDysafDssq         SGergTslgNtlvN       flGDDsli
+Score 46.4, PH5 (Kitrino +3.1)
+
+>NODE_1925_length_3885_cov_77.464811_SRR8455905_2
+   A:264-275(25.3)      B:326-339(27.4)      C:357-364(17.0)
+   YEMDLSKYDKSQ    <74> SGDVTTFIGNTLVN  <45> FGGDDSLI  [101]
+   +|.|+|||||||         |||+||||||||||       |.||||||
+   lEiDfSKFDKSQ         TGdatTylGNTivn       fsGDDSLI
+Score 69.7, Martellivirales (Kitrino +13.8)
+
+>NODE_93_length_6589_cov_4.952549_SRR7976660_8
+   A:1928-1939(18.2)      B:1988-2001(25.3)      C:2021-2028(14.8)
+   AEDDLKKQDRQT      <72> TGQATTALGNVVVN    <47> VLGDDNII  [101]
+    |+|+ ||||||           ||||||+|||.+||         |+||||||
+   lEiDfSKFDKSQ           TGdatTylGNTivn         fsGDDSLI
+Score 58.3, Martellivirales (PH5 +12.6)
+
+>NODE_914_length_5302_cov_97.892632_SRR8455906_3
+   A:264-275(25.3)      B:326-339(27.4)      C:357-364(17.0)
+   YEMDLSKYDKSQ    <74> SGDVTTFIGNTLVN  <45> FGGDDSLI  [101]
+   +|.|+|||||||         |||+||||||||||       |.||||||
+   lEiDfSKFDKSQ         TGdatTylGNTivn       fsGDDSLI
+Score 69.7, Martellivirales (Kitrino +13.8)
+
+>NODE_22907_length_1657_cov_72.493671_SRR8455908_1
+   A:121-132(25.3)      B:183-196(27.4)      C:214-221(17.0)
+   YEMDLSKYDKSQ    <74> SGDVTTFIGNTLVN  <45> FGGDDSLI  [101]
+   +|.|+|||||||         |||+||||||||||       |.||||||
+   lEiDfSKFDKSQ         TGdatTylGNTivn       fsGDDSLI
+Score 69.7, Martellivirales (Kitrino +13.8)
+
+>NODE_456_length_5167_cov_10.129077_SRR8455907_2
+   A:264-275(25.3)      B:326-339(27.4)      C:357-364(17.0)
+   YEMDLSKYDKSQ    <74> SGDVTTFIGNTLVN  <45> FGGDDSLI  [101]
+   +|.|+|||||||         |||+||||||||||       |.||||||
+   lEiDfSKFDKSQ         TGdatTylGNTivn       fsGDDSLI
+Score 69.7, Martellivirales (Kitrino +13.8)
+
+>NODE_8_length_6734_cov_16.234317_SRR7516198_3
+   A:1675-1686(28.5)      B:1737-1750(17.6)      C:1768-1775(15.1)
+   LEIDFSKFDKSQ      <74> SGDSATAFGNSLIS    <45> FVGDDSLI  [101]
+   ||||||||||||           |||. |+|||+||          | ||||||
+   lEiDfSKFDKSQ           TGdatTylGNTivn         fsGDDSLI
+Score 61.2, Martellivirales (PH5 +11.4)
+
+>NODE_1499_length_5218_cov_11.485509_SRR8455909_2
+   A:264-275(25.3)      B:326-339(27.4)      C:357-364(17.0)
+   YEMDLSKYDKSQ    <74> SGDVTTFIGNTLVN  <45> FGGDDSLI  [101]
+   +|.|+|||||||         |||+||||||||||       |.||||||
+   lEiDfSKFDKSQ         TGdatTylGNTivn       fsGDDSLI
+Score 69.7, Martellivirales (Kitrino +13.8)
+
+>NODE_23823_length_1505_cov_3.039216_SRR8455909_1
+   A:364-375(19.0)      B:424-437(16.0)      C:457-464(11.3)
+   GENDFSKYDKSQ    <72> TGAQDTSAFNSTTN  <47> FLGDDVVL  [101]
+    ||||||||.||         ||  +|| ||+ +|       |+||| +.
+   venDysafDssq         SGergTslgNtlvN       flGDDsli
+Score 46.4, PH5 (Kitrino +3.1)
+
+>NODE_232_length_5200_cov_31.422214_SRR8455910_3
+   A:264-275(25.3)      B:326-339(27.4)      C:357-364(17.0)
+   YEMDLSKYDKSQ    <74> SGDVTTFIGNTLVN  <45> FGGDDSLI  [101]
+   +|.|+|||||||         |||+||||||||||       |.||||||
+   lEiDfSKFDKSQ         TGdatTylGNTivn       fsGDDSLI
+Score 69.7, Martellivirales (Kitrino +13.8)
+
+>NODE_366_length_5229_cov_8.771351_SRR8455912_2
+   A:264-275(25.3)      B:326-339(27.4)      C:357-364(17.0)
+   YEMDLSKYDKSQ    <74> SGDVTTFIGNTLVN  <45> FGGDDSLI  [101]
+   +|.|+|||||||         |||+||||||||||       |.||||||
+   lEiDfSKFDKSQ         TGdatTylGNTivn       fsGDDSLI
+Score 69.7, Martellivirales (Kitrino +13.8)
+
+>NODE_384_length_5232_cov_10.187003_SRR8455913_2
+   A:264-275(25.3)      B:326-339(27.4)      C:357-364(17.0)
+   YEMDLSKYDKSQ    <74> SGDVTTFIGNTLVN  <45> FGGDDSLI  [101]
+   +|.|+|||||||         |||+||||||||||       |.||||||
+   lEiDfSKFDKSQ         TGdatTylGNTivn       fsGDDSLI
+Score 69.7, Martellivirales (Kitrino +13.8)
+
+>NODE_630_length_4507_cov_2.832280_SRR8554352_6
+   A:267-278(26.5)      B:329-342(24.5)      C:360-367(16.9)
+   LELDISKYDKSQ    <74> SGDVTTFIGNTVII  <45> FCGDDSLL  [101]
+   ||+|||||||||         |||+|||||||+|.       |||||||+
+   lEiDfSKFDKSQ         TGdatTylGNTivn       fsGDDSLI
+Score 68.0, Martellivirales (Kitrino +14.2)
+
+>NODE_379_length_5238_cov_30.154234_SRR8455911_4
+   A:264-275(25.3)      B:326-339(27.4)      C:357-364(17.0)
+   YEMDLSKYDKSQ    <74> SGDVTTFIGNTLVN  <45> FGGDDSLI  [101]
+   +|.|+|||||||         |||+||||||||||       |.||||||
+   lEiDfSKFDKSQ         TGdatTylGNTivn       fsGDDSLI
+Score 69.7, Martellivirales (Kitrino +13.8)
+
+>NODE_1875_length_2765_cov_8.923363_SRR8554352_1
+   A:208-219(25.1)      B:270-283(24.5)      C:301-308(16.9)
+   LELDVSKYDKSQ    <74> SGDVTTFIGNTVII  <45> FCGDDSLL  [101]
+   ||+| |||||||         |||+|||||||+|.       |||||||+
+   lEiDfSKFDKSQ         TGdatTylGNTivn       fsGDDSLI
+Score 66.5, Martellivirales (Kitrino +13.7)
+
+>NODE_6843_length_1382_cov_1.714943_SRR8554352_1
+   A:2-13(26.5)      B:64-77(24.5)       C:95-102(16.1)
+   LELDISKYDKSQ <74> SGDVTTFIGNTVII <45> FCGDDSIL  [101]
+   ||+|||||||||      |||+|||||||+|.      |||||||+
+   lEiDfSKFDKSQ      TGdatTylGNTivn      fsGDDSLI
+Score 67.2, Martellivirales (Kitrino +13.9)
+
+>NODE_361_length_5643_cov_18.968200_SRR8554352_5
+   A:271-282(25.1)      B:333-346(23.1)      C:364-371(18.3)
+   LELDVSKYDKSQ    <74> SGDVTTFIGNTFII  <45> FCGDDSLI  [101]
+   ||+| |||||||         |||+||||||| |.       ||||||||
+   lEiDfSKFDKSQ         TGdatTylGNTivn       fsGDDSLI
+Score 66.5, Martellivirales (Kitrino +12.9)
+
+>NODE_256_length_6307_cov_19.638684_SRR8554352_2
+   A:265-276(26.5)      B:327-340(25.3)      C:358-365(16.1)
+   LELDISKYDKSQ    <74> SGDVTTFIGNTIII  <45> FCGDDSIL  [101]
+   ||+|||||||||         |||+|||||||||.       |||||||+
+   lEiDfSKFDKSQ         TGdatTylGNTivn       fsGDDSLI
+Score 68.0, Martellivirales (Kitrino +13.8)
+
+>NODE_1018_length_3645_cov_2.095291_SRR8554352_6
+   A:266-277(26.5)      B:328-341(24.5)      C:359-366(14.7)
+   LELDISKYDKSQ    <74> SGDVTTFIGNTVII  <45> FCGDDSVL  [101]
+   ||+|||||||||         |||+|||||||+|.       |||||| +
+   lEiDfSKFDKSQ         TGdatTylGNTivn       fsGDDSLI
+Score 65.8, Martellivirales (Kitrino +11.4)
+
+>NODE_12737_length_959_cov_1.461451_SRR8554352_3
+   A:153-164(26.5)      B:215-228(24.5)      C:246-253(16.9)
+   LELDISKYDKSQ    <74> SGDVTTFIGNTVII  <45> FCGDDSLL  [101]
+   ||+|||||||||         |||+|||||||+|.       |||||||+
+   lEiDfSKFDKSQ         TGdatTylGNTivn       fsGDDSLI
+Score 68.0, Martellivirales (Kitrino +14.2)
+
+>NODE_3598_length_2098_cov_4439.316675_SRR8658352_1
+   A:572-583(28.5)      B:634-647(19.8)      C:665-672(17.2)
+   LEIDFSKFDKSQ    <74> SGDSATAFGNTIIS  <45> FIGDDSLI  [101]
+   ||||||||||||         |||. |+||||||        |.||||||
+   lEiDfSKFDKSQ         TGdatTylGNTivn       fsGDDSLI
+Score 65.6, Martellivirales (Kitrino +13.5)
+
+>NODE_1127_length_3722_cov_5479.529767_SRR8658352_4
+   A:575-586(28.5)      B:637-650(19.4)      C:668-675(13.7)
+   LEIDFSKFDKSQ    <74> SGDSATAFGNTLIS  <45> FVGDDSLL  [101]
+   ||||||||||||         |||. |+||||||        | |||||+
+   lEiDfSKFDKSQ         TGdatTylGNTivn       fsGDDSLI
+Score 61.6, Martellivirales (PH5 +11.1)
+
+>NODE_1178_length_3181_cov_2591.634987_SRR8658353_1
+   A:504-515(28.5)      B:566-579(19.4)      C:597-604(13.7)
+   LEIDFSKFDKSQ    <74> SGDSATAFGNTLIS  <45> FVGDDSLL  [101]
+   ||||||||||||         |||. |+||||||        | |||||+
+   lEiDfSKFDKSQ         TGdatTylGNTivn       fsGDDSLI
+Score 61.6, Martellivirales (PH5 +11.1)
+
+>NODE_399_length_5743_cov_82.950935_SRR8658354_3
+   A:1627-1638(28.5)      B:1689-1702(19.8)      C:1720-1727(17.2)
+   LEIDFSKFDKSQ      <74> SGDSATAFGNTIIS    <45> FIGDDSLI  [101]
+   ||||||||||||           |||. |+||||||          |.||||||
+   lEiDfSKFDKSQ           TGdatTylGNTivn         fsGDDSLI
+Score 65.6, Martellivirales (Kitrino +13.5)
+
+>NODE_322_length_6896_cov_223.354451_SRR8658355_8
+   A:1627-1638(28.5)      B:1689-1702(19.8)      C:1720-1727(17.2)
+   LEIDFSKFDKSQ      <74> SGDSATAFGNTIIS    <45> FIGDDSLI  [101]
+   ||||||||||||           |||. |+||||||          |.||||||
+   lEiDfSKFDKSQ           TGdatTylGNTivn         fsGDDSLI
+Score 65.6, Martellivirales (Kitrino +13.5)
+
+>NODE_440_length_6334_cov_16.237654_SRR8658355_1
+   A:1524-1535(28.5)      B:1586-1599(19.4)      C:1617-1624(13.7)
+   LEIDFSKFDKSQ      <74> SGDSATAFGNTLIS    <45> FVGDDSLL  [101]
+   ||||||||||||           |||. |+||||||          | |||||+
+   lEiDfSKFDKSQ           TGdatTylGNTivn         fsGDDSLI
+Score 61.6, Martellivirales (PH5 +11.1)
+
+>NODE_242_length_5620_cov_498.148836_SRR8658357_7
+   A:788-799(28.5)      B:850-863(19.8)      C:881-888(17.2)
+   LEIDFSKFDKSQ    <74> SGDSATAFGNTIIS  <45> FIGDDSLI  [101]
+   ||||||||||||         |||. |+||||||        |.||||||
+   lEiDfSKFDKSQ         TGdatTylGNTivn       fsGDDSLI
+Score 65.6, Martellivirales (Kitrino +13.5)
+
+>NODE_85_length_6361_cov_532.734564_SRR8658356_5
+   A:1533-1544(28.5)      B:1595-1608(19.4)      C:1626-1633(13.7)
+   LEIDFSKFDKSQ      <74> SGDSATAFGNTLIS    <45> FVGDDSLL  [101]
+   ||||||||||||           |||. |+||||||          | |||||+
+   lEiDfSKFDKSQ           TGdatTylGNTivn         fsGDDSLI
+Score 61.6, Martellivirales (PH5 +11.1)
+
+>NODE_272_length_6319_cov_68.384012_SRR8658354_1
+   A:1528-1539(28.5)      B:1590-1603(19.4)      C:1621-1628(13.7)
+   LEIDFSKFDKSQ      <74> SGDSATAFGNTLIS    <45> FVGDDSLL  [101]
+   ||||||||||||           |||. |+||||||          | |||||+
+   lEiDfSKFDKSQ           TGdatTylGNTivn         fsGDDSLI
+Score 61.6, Martellivirales (PH5 +11.1)
+
+>NODE_143_length_7228_cov_27.916935_SRR8658352_2
+   A:2055-2066(22.5)      B:2117-2130(19.8)      C:2148-2155(13.7)
+   KEIDIGKYDKSQ      <74> SGDGNTFLGNTVFL    <45> FAGDDSWL  [101]
+   +|||| ||||||           ||| |||||||+           |.|||| +
+   lEiDfSKFDKSQ           TGdatTylGNTivn         fsGDDSLI
+Score 55.9, Martellivirales (Kitrino +10.6)
+
+>NODE_244_length_5617_cov_62.071480_SRR8658357_6
+   A:1627-1638(28.5)      B:1689-1702(19.8)      C:1720-1727(17.2)
+   LEIDFSKFDKSQ      <74> SGDSATAFGNTIIS    <45> FIGDDSLI  [101]
+   ||||||||||||           |||. |+||||||          |.||||||
+   lEiDfSKFDKSQ           TGdatTylGNTivn         fsGDDSLI
+Score 65.6, Martellivirales (Kitrino +13.5)
+
+>NODE_186_length_6730_cov_324.596573_SRR8658358_3
+   A:1627-1638(28.5)      B:1689-1702(19.8)      C:1720-1727(17.2)
+   LEIDFSKFDKSQ      <74> SGDSATAFGNTIIS    <45> FIGDDSLI  [101]
+   ||||||||||||           |||. |+||||||          |.||||||
+   lEiDfSKFDKSQ           TGdatTylGNTivn         fsGDDSLI
+Score 65.6, Martellivirales (Kitrino +13.5)
+
+>NODE_468_length_3245_cov_8.832386_SRR8727442_1
+   A:498-509(27.5)      B:560-573(23.1)      C:591-598(15.5)
+   LEVDFSKFDKSQ    <74> SGDSATAFGNTLIT  <45> FIGDDSLV  [101]
+   ||+|||||||||         |||. |+|||||||       |.|||||.
+   lEiDfSKFDKSQ         TGdatTylGNTivn       fsGDDSLI
+Score 66.2, Martellivirales (Kitrino +13.8)
+
+>NODE_296_length_3822_cov_10.632844_SRR8727441_3
+   A:691-702(27.5)      B:753-766(23.1)      C:784-791(15.5)
+   LEVDFSKFDKSQ    <74> SGDSATAFGNTLIT  <45> FIGDDSLV  [101]
+   ||+|||||||||         |||. |+|||||||       |.|||||.
+   lEiDfSKFDKSQ         TGdatTylGNTivn       fsGDDSLI
+Score 66.2, Martellivirales (Kitrino +13.8)
+
+>NODE_251_length_6673_cov_596.344603_SRR8658359_6
+   A:1616-1627(28.5)      B:1678-1691(19.8)      C:1709-1716(17.2)
+   LEIDFSKFDKSQ      <74> SGDSATAFGNTIIS    <45> FIGDDSLI  [101]
+   ||||||||||||           |||. |+||||||          |.||||||
+   lEiDfSKFDKSQ           TGdatTylGNTivn         fsGDDSLI
+Score 65.6, Martellivirales (Kitrino +13.5)
+
+>NODE_345_length_3431_cov_8.403995_SRR8727443_3
+   A:614-625(27.5)      B:676-689(23.1)      C:707-714(15.5)
+   LEVDFSKFDKSQ    <74> SGDSATAFGNTLIT  <45> FIGDDSLV  [101]
+   ||+|||||||||         |||. |+|||||||       |.|||||.
+   lEiDfSKFDKSQ         TGdatTylGNTivn       fsGDDSLI
+Score 66.2, Martellivirales (Kitrino +13.8)
+
+>NODE_2_length_5969_cov_129.087746_SRR9596414_2
+   A:263-274(16.3)      B:325-338(15.8)      C:361-368(11.0)
+   TETDLSEQDASQ    <74> SGEPHTLLGNTMNG  <50> FKGDDFLA  [106]
+   +|.|.|.||.||         |||| |.||||+         |+||| |.
+   venDysafDssq         SGergTslgNtlvN       flGDDsli
+Score 43.0, PH5 (Kitrino +2.6)
+
+>NODE_2573_length_1203_cov_0.725836_SRR9317871_1
+   A:211-222(26.5)      B:273-286(25.3)      C:304-311(16.1)
+   LELDISKYDKSQ    <74> SGDVTTFIGNTIII  <45> FCGDDSIL  [101]
+   ||+|||||||||         |||+|||||||||.       |||||||+
+   lEiDfSKFDKSQ         TGdatTylGNTivn       fsGDDSLI
+Score 68.0, Martellivirales (Kitrino +13.8)
+
+>NODE_87_length_6701_cov_659.017814_SRR8749692_6
+   A:1624-1635(28.5)      B:1686-1699(19.8)      C:1717-1724(17.2)
+   LEIDFSKFDKSQ      <74> SGDSATAFGNTIIS    <45> FIGDDSLI  [101]
+   ||||||||||||           |||. |+||||||          |.||||||
+   lEiDfSKFDKSQ           TGdatTylGNTivn         fsGDDSLI
+Score 65.6, Martellivirales (Kitrino +13.5)
+
+>NODE_157_length_6711_cov_657.899005_SRR8749696_3
+   A:1627-1638(28.5)      B:1689-1702(19.8)      C:1720-1727(17.2)
+   LEIDFSKFDKSQ      <74> SGDSATAFGNTIIS    <45> FIGDDSLI  [101]
+   ||||||||||||           |||. |+||||||          |.||||||
+   lEiDfSKFDKSQ           TGdatTylGNTivn         fsGDDSLI
+Score 65.6, Martellivirales (Kitrino +13.5)
+
+>NODE_10536_length_2129_cov_1.942008_SRR9960038_1
+   A:17-28(27.7)      B:79-92(21.4)       C:110-117(15.3)
+   KEIDFSKYDKSQ  <74> SGDAATFLGNTLIC <45> FAGDDSLV  [101]
+   +|||||||||||       |||| ||||||||       |.|||||.
+   lEiDfSKFDKSQ       TGdatTylGNTivn      fsGDDSLI
+Score 64.3, Martellivirales (Kitrino +7.9)
+
+>NODE_10_length_7298_cov_9.011435_SRR9317871_11
+   A:1559-1570(8.4)      B:1623-1636(22.8)      C:1654-1661(16.7)
+   ACNDFSEWDASY     <76> SGNPFTICFNTIMN    <45> FKGDDSAV  [103]
+    +|||||||             || | |.||||| |         |||||| |
+   FENDFSEFDSTQ          SGEPGTLLwNTVWN         FKGDDSVV
+Score 47.9, Hepelivirales (PH5 +1.5)
+
+>NODE_70_length_6749_cov_867.399281_SRR8749691_3
+   A:1627-1638(28.5)      B:1689-1702(19.8)      C:1720-1727(17.2)
+   LEIDFSKFDKSQ      <74> SGDSATAFGNTIIS    <45> FIGDDSLI  [101]
+   ||||||||||||           |||. |+||||||          |.||||||
+   lEiDfSKFDKSQ           TGdatTylGNTivn         fsGDDSLI
+Score 65.6, Martellivirales (Kitrino +13.5)
+
+>NODE_199_length_2867_cov_7.196416_SRR9596414_11
+   A:648-659(27.5)      B:710-723(24.2)      C:741-748(13.7)
+   LEVDFSKFDKSQ    <74> SGDATTCLGNTLVN  <45> FVGDDSLL  [101]
+   ||+|||||||||         |||||| |||||||       | |||||+
+   lEiDfSKFDKSQ         TGdatTylGNTivn       fsGDDSLI
+Score 65.5, Martellivirales (Kitrino +9.3)

@@ -1,0 +1,4 @@
+2025-08-05 12:46:00 INFO     START LOG
+2025-08-05 12:46:00 INFO     Python info: 3.10.15 | packaged by conda-forge | (main, Oct 16 2024, 01:24:24) [GCC 13.3.0]
+2025-08-05 12:46:00 INFO     orfipy version: 0.0.4
+2025-08-05 12:46:00 INFO     orfipy ../data/random/non-virga_tpdb2_diamond_selected.fasta --min 300 --max 1000000000 --procs 29 --chunk-size 1000 --strand b --start TTG,CTG,ATG --stop TAA,TAG,TGA --table 1 --between-stops --bed BED --pep PEP --outdir results/random/orfs

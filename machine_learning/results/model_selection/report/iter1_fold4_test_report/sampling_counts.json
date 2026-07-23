@@ -1,0 +1,60 @@
+{
+    "Hibiscus latent Singapore virus 2": {
+        "LC127213.1": 30
+    },
+    "Hoya chlorotic spot virus": {
+        "NC_034509.1": 30
+    },
+    "Indian peanut clump virus": {
+        "AF447397.1": 16,
+        "X99149.1": 14
+    },
+    "Ligustrum mosaic virus": {
+        "MW752157.1": 13,
+        "MW752158.1": 10,
+        "MW752159.1": 7
+    },
+    "Odontoglossum ringspot virus": {
+        "NC_001728.1": 30
+    },
+    "Piper chlorosis virus": {
+        "OR350232.2": 30
+    },
+    "Plantago tobamovirus 1": {
+        "OL472109.1": 30
+    },
+    "Sorghum chlorotic spot virus": {
+        "AB033691.1": 18,
+        "AB033692.1": 12
+    },
+    "Ullucus mild mottle virus": {
+        "MH645158.1": 30
+    },
+    "paprika mild mottle virus": {
+        "NC_004106.1": 30
+    },
+    "pepper mild mottle virus": {
+        "NC_003630.1": 30
+    },
+    "potato mop-top virus": {
+        "NC_003723.1": 10,
+        "NC_003724.1": 11,
+        "NC_003725.1": 9
+    },
+    "rattail cactus necrosis-associated virus 3": {
+        "KY348773.1": 30
+    },
+    "soil-borne wheat mosaic virus 2": {
+        "MN241032.1": 19,
+        "MN241033.1": 11
+    },
+    "sunn-hemp mosaic virus": {
+        "MW057697.1": 30
+    },
+    "tobacco mosaic virus 1": {
+        "NC_001367.1": 30
+    },
+    "tropical soda apple mosaic virus": {
+        "NC_030229.1": 30
+    }
+}
