@@ -1,0 +1,6 @@
+{
+  "ref_alignment": "results/untrimmed/reference.aln",
+  "tree": "results/untrimmed/iqtree/reference.treefile",
+  "model": "results/untrimmed/iqtree/reference.iqtree",
+  "trimmed": false
+}

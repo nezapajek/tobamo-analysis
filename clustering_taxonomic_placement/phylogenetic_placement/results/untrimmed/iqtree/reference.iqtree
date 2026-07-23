@@ -1,0 +1,483 @@
+IQ-TREE 3.0.1 built Jul  9 2025
+
+Input file name: results/untrimmed/reference.aln
+Type of analysis: ModelFinder + tree reconstruction + ultrafast bootstrap (1000 replicates)
+Random seed number: 838494
+
+REFERENCES
+----------
+
+To cite IQ-TREE 3 please use:
+
+Thomas K.F. Wong, Nhan Ly-Trong, Huaiyan Ren, Hector Banos, Andrew J. Roger,
+Edward Susko, Chris Bielow, Nicola De Maio, Nick Goldman, Matthew W. Hahn,
+Gavin Huttley, Robert Lanfear, Bui Quang Minh (2025)
+IQ-TREE 3: Phylogenomic Inference Software using Complex Evolutionary Models.
+Submitted.
+
+Please also cite the following paper(s) for the feature(s) that you used:
+
+To cite ModelFinder please use: 
+
+Subha Kalyaanamoorthy, Bui Quang Minh, Thomas KF Wong, Arndt von Haeseler,
+and Lars S Jermiin (2017) ModelFinder: Fast model selection for
+accurate phylogenetic estimates. Nature Methods, 14:587–589.
+https://doi.org/10.1038/nmeth.4285
+
+Since you used ultrafast bootstrap (UFBoot) please also cite: 
+
+Diep Thi Hoang, Olga Chernomor, Arndt von Haeseler, Bui Quang Minh,
+and Le Sy Vinh (2018) UFBoot2: Improving the ultrafast bootstrap
+approximation. Mol. Biol. Evol., 35:518–522.
+https://doi.org/10.1093/molbev/msx281
+
+SEQUENCE ALIGNMENT
+------------------
+
+Input data: 67 sequences with 9783 nucleotide sites
+Number of constant sites: 2422 (= 24.7572% of all sites)
+Number of invariant (constant or ambiguous constant) sites: 2422 (= 24.7572% of all sites)
+Number of parsimony informative sites: 6256
+Number of distinct site patterns: 7452
+
+ModelFinder
+-----------
+
+Best-fit model according to BIC: GTR+F+R6
+
+List of models sorted by BIC scores: 
+
+Model                  LogL         AIC      w-AIC        AICc     w-AICc         BIC      w-BIC
+GTR+F+R6        -280282.680  560863.360 +        1  560868.000 +        1  561934.432 +        1
+TVM+F+R6        -280447.792  561191.584 - 5.33e-72  561196.162 -  5.5e-72  562255.467 - 1.94e-70
+TIM2+F+R6       -280458.463  561210.927 - 3.36e-76  561215.443 - 3.58e-76  562267.622 - 4.45e-73
+TIM3+F+R6       -280489.940  561273.880 - 7.19e-90  561278.396 - 7.65e-90  562330.575 - 9.52e-87
+TPM2u+F+R6      -280606.880  561505.761 - 3.19e-140  561510.215 - 3.51e-140  562555.267 - 1.54e-135
+TPM3u+F+R6      -280659.178  561610.356 - 6.19e-163  561614.810 - 6.8e-163  562659.862 - 2.98e-158
+TN+F+R6         -280660.407  561612.814 - 1.81e-163  561617.269 - 1.99e-163  562662.321 - 8.73e-159
+TIM+F+R6        -280659.694  561613.389 - 1.36e-163  561617.905 - 1.45e-163  562670.084 - 1.8e-160
+HKY+F+R6        -280813.539  561917.078 - 1.54e-229  561921.471 - 1.74e-229  562959.396 - 2.7e-223
+K3Pu+F+R6       -280812.393  561916.785 - 1.78e-229  561921.240 - 1.96e-229  562966.292 - 8.6e-225
+TVM+R6          -281229.268  562748.535 -        0  562752.929 -        0  563790.853 -        0
+TVMe+R6         -281229.362  562748.724 -        0  562753.117 -        0  563791.042 -        0
+TVMe+R6         -281229.362  562748.724 -        0  562753.117 -        0  563791.042 -        0
+GTR+R6          -281226.635  562745.270 -        0  562749.725 -        0  563794.777 -        0
+SYM+R6          -281226.689  562745.377 -        0  562749.832 -        0  563794.884 -        0
+SYM+R6          -281226.689  562745.377 -        0  562749.832 -        0  563794.884 -        0
+TPM2u+R6        -281246.577  562779.154 -        0  562783.427 -        0  563807.096 -        0
+TPM2+R6         -281246.813  562779.626 -        0  562783.899 -        0  563807.568 -        0
+TPM2+R6         -281246.813  562779.626 -        0  562783.899 -        0  563807.568 -        0
+TIM2+R6         -281242.428  562772.855 -        0  562777.188 -        0  563807.985 -        0
+TIM2e+R6        -281242.519  562773.038 -        0  562777.371 -        0  563808.168 -        0
+TIM2e+R6        -281242.519  562773.038 -        0  562777.371 -        0  563808.168 -        0
+TIM3+R6         -281653.573  563595.146 -        0  563599.479 -        0  564630.276 -        0
+TIM3e+R6        -281653.646  563595.292 -        0  563599.625 -        0  564630.422 -        0
+TIM3e+R6        -281653.646  563595.292 -        0  563599.625 -        0  564630.422 -        0
+TPM3u+R6        -281660.720  563607.441 -        0  563611.713 -        0  564635.382 -        0
+TPM3+R6         -281660.822  563607.643 -        0  563611.916 -        0  564635.585 -        0
+TPM3+R6         -281660.822  563607.643 -        0  563611.916 -        0  564635.585 -        0
+TIM+R6          -281662.800  563613.600 -        0  563617.933 -        0  564648.730 -        0
+TIMe+R6         -281662.880  563613.759 -        0  563618.092 -        0  564648.889 -        0
+TIMe+R6         -281662.880  563613.759 -        0  563618.092 -        0  564648.889 -        0
+K3Pu+R6         -281669.590  563625.181 -        0  563629.453 -        0  564653.122 -        0
+K3P+R6          -281669.680  563625.360 -        0  563629.632 -        0  564653.301 -        0
+K3P+R6          -281669.680  563625.360 -        0  563629.632 -        0  564653.301 -        0
+TN+R6           -281672.329  563630.659 -        0  563634.932 -        0  564658.600 -        0
+TNe+R6          -281672.441  563630.882 -        0  563635.155 -        0  564658.824 -        0
+TNe+R6          -281672.441  563630.882 -        0  563635.155 -        0  564658.824 -        0
+HKY+R6          -281678.053  563640.106 -        0  563644.319 -        0  564660.859 -        0
+K2P+R6          -281678.177  563640.355 -        0  563644.567 -        0  564661.108 -        0
+K2P+R6          -281678.177  563640.355 -        0  563644.567 -        0  564661.108 -        0
+F81+F+R6        -286533.118  573354.236 -        0  573358.569 -        0  574389.366 -        0
+F81+R6          -286970.561  574223.123 -        0  574227.276 -        0  575236.687 -        0
+JC+R6           -286970.729  574223.457 -        0  574227.611 -        0  575237.022 -        0
+JC+R6           -286970.729  574223.457 -        0  574227.611 -        0  575237.022 -        0
+JC+I+R6         -286971.216  574226.432 -        0  574230.645 -        0  575247.185 -        0
+JC+I+R5         -286981.986  574243.972 -        0  574248.067 -        0  575250.349 -        0
+JC+R7           -286969.571  574225.142 -        0  574229.415 -        0  575253.083 -        0
+JC+R5           -286988.872  574255.744 -        0  574259.780 -        0  575254.931 -        0
+JC+I+R7         -286970.209  574228.419 -        0  574232.752 -        0  575263.549 -        0
+JC+I+R4         -287051.291  574378.583 -        0  574382.561 -        0  575370.582 -        0
+JC+R4           -287183.060  574640.120 -        0  574644.041 -        0  575624.931 -        0
+JC+I+G4         -287210.862  574687.723 -        0  574691.417 -        0  575643.781 -        0
+JC+G4           -287419.761  575103.523 -        0  575107.161 -        0  576052.392 -        0
+JC+I+R3         -287559.620  575391.239 -        0  575395.102 -        0  576368.862 -        0
+JC+R3           -288130.260  576530.520 -        0  576534.327 -        0  577500.955 -        0
+JC+I+R2         -289631.019  579530.039 -        0  579533.789 -        0  580493.285 -        0
+JC+R2           -290957.254  582180.509 -        0  582184.203 -        0  583136.566 -        0
+JC+I            -301898.440  604060.880 -        0  604064.519 -        0  605009.749 -        0
+JC              -307952.282  616166.564 -        0  616170.148 -        0  617108.245 -        0
+
+AIC, w-AIC   : Akaike information criterion scores and weights.
+AICc, w-AICc : Corrected AIC scores and weights.
+BIC, w-BIC   : Bayesian information criterion scores and weights.
+
+Plus signs denote the 95% confidence sets.
+Minus signs denote significant exclusion.
+
+SUBSTITUTION PROCESS
+--------------------
+
+Model of substitution: GTR+F+R6
+
+Rate parameter R:
+
+  A-C: 2.1597
+  A-G: 4.0385
+  A-T: 1.4890
+  C-G: 1.4747
+  C-T: 5.5221
+  G-T: 1.0000
+
+State frequencies: (empirical counts from alignment)
+
+  pi(A) = 0.2855
+  pi(C) = 0.1881
+  pi(G) = 0.2386
+  pi(T) = 0.2877
+
+Rate matrix Q:
+
+  A   -0.9493    0.2144    0.5087    0.2262
+  C    0.3255     -1.35    0.1858    0.8387
+  G    0.6087    0.1464    -0.907    0.1519
+  T    0.2244    0.5483     0.126   -0.8987
+
+Model of rate heterogeneity: FreeRate with 6 categories
+Site proportion and rates:  (0.1482,0.02714) (0.1302,0.1692) (0.1767,0.3998) (0.2746,0.8368) (0.1678,1.774) (0.1025,3.667)
+
+ Category  Relative_rate  Proportion
+  1         0.02714        0.1482
+  2         0.1692         0.1302
+  3         0.3998         0.1767
+  4         0.8368         0.2746
+  5         1.774          0.1678
+  6         3.667          0.1025
+
+MAXIMUM LIKELIHOOD TREE
+-----------------------
+
+Log-likelihood of the tree: -280270.0696 (s.e. 2518.7989)
+Unconstrained log-likelihood (without tree): -81059.7177
+Number of free parameters (#branches + #model parameters): 149
+Akaike information criterion (AIC) score: 560838.1393
+Corrected Akaike information criterion (AICc) score: 560842.7796
+Bayesian information criterion (BIC) score: 561909.2111
+
+Total tree length (sum of branch lengths): 30.8103
+Sum of internal branch lengths: 12.3725 (40.1571% of tree length)
+
+NOTE: Tree is UNROOTED although outgroup taxon 'Tobacco_mosaic_virus_V01408' is drawn at root
+Numbers in parentheses are  ultrafast bootstrap support (%)
+
++--Tobacco_mosaic_virus_V01408
+|
+|                       +--Pepper_mild_mottle_virus_M81413
+|                    +--| (100)
+|                    |  +--Virgaviridae_sp._MW346736
+|                 +--| (100)
+|                 |  +--Tropical_soda_apple_mosaic_virus_KU659022
+|              +--| (100)
+|              |  |     +--African_eggplant-associated_virus_OP729507
+|              |  |  +--| (80)
+|              |  |  |  +--African_eggplant-associated_virus_OP729508
+|              |  +--| (100)
+|              |     +--Tobamovirus_sp._OR843968
+|           +--| (100)
+|           |  |              +--Tobacco_mild_green_mosaic_virus_M34077
+|           |  |           +--| (62)
+|           |  |           |  +------Yunnan_virgavirus_3_MW897268
+|           |  |        +--| (62)
+|           |  |        |  |              +---Odontoglossum_ringspot_virus_X82130
+|           |  |        |  |           +--| (100)
+|           |  |        |  |           |  +--Piper_chlorosis_virus_isolate_ON924221
+|           |  |        |  |        +--| (86)
+|           |  |        |  |        |  |           +--Youcai_mosaic_virus_U30944
+|           |  |        |  |        |  |        +--| (100)
+|           |  |        |  |        |  |        |  |  +--Wasabi_mottle_virus_AB017503
+|           |  |        |  |        |  |        |  +--| (100)
+|           |  |        |  |        |  |        |     +--Crucifer_tobamovirus_AB003936
+|           |  |        |  |        |  |     +--| (100)
+|           |  |        |  |        |  |     |  |  +--Turnip_vein-clearing_virus_U03387
+|           |  |        |  |        |  |     |  +--| (100)
+|           |  |        |  |        |  |     |     |     +--Ribgrass_mosaic_virus_HQ667979
+|           |  |        |  |        |  |     |     |  +--| (100)
+|           |  |        |  |        |  |     |     |  |  +--Plantago_tobamovirus_1_OL472109
+|           |  |        |  |        |  |     |     +--| (96)
+|           |  |        |  |        |  |     |        +--Beldersay_tobamovirus_1_OR912405
+|           |  |        |  |        |  |  +--| (100)
+|           |  |        |  |        |  |  |  +--Gorica_tobamovirus_1_OQ789505
+|           |  |        |  |        |  +--| (68)
+|           |  |        |  |        |     +----Ullucus_tobamovirus_1_MH645158
+|           |  |        |  |     +--| (100)
+|           |  |        |  |     |  +----Streptocarpus_flower_break_virus_AM040955
+|           |  |        |  |  +--| (100)
+|           |  |        |  |  |  |  +---Hoya_chlorotic_spot_virus_NC_034509
+|           |  |        |  |  |  +--| (100)
+|           |  |        |  |  |     +---Sichuan_virgavirus_MW897265
+|           |  |        |  +--| (100)
+|           |  |        |     |                      +--Sunn-hemp_mosaic_virus_U47034
+|           |  |        |     |              +-------| (100)
+|           |  |        |     |              |       +---Clitoria_yellow_mottle_virus_JN566124
+|           |  |        |     |           +--| (60)
+|           |  |        |     |           |  |       +--Maracuja_mosaic_virus_DQ356949
+|           |  |        |     |           |  |    +--| (100)
+|           |  |        |     |           |  |    |  +--Passion_fruit_mosaic_virus_HQ389540
+|           |  |        |     |           |  +----| (100)
+|           |  |        |     |           |       +-----Sewage-associated_tobamovirus_LC745662
+|           |  |        |     |        +--| (93)
+|           |  |        |     |        |  |                   +**Cucumber_green_mottle_mosaic_virus_D12505
+|           |  |        |     |        |  |                +--| (99)
+|           |  |        |     |        |  |                |  +--Virgaviridae_sp._OR871422
+|           |  |        |     |        |  |             +--| (97)
+|           |  |        |     |        |  |             |  +--Virgaviridae_sp._OR871420
+|           |  |        |     |        |  |         +---| (100)
+|           |  |        |     |        |  |         |   +--Virgaviridae_sp._PV470276
+|           |  |        |     |        |  |      +--| (83)
+|           |  |        |     |        |  |      |  |  +--Cucumber_fruit_mottle_mosaic_virus_AF321057
+|           |  |        |     |        |  |      |  +--| (100)
+|           |  |        |     |        |  |      |     |  +--Kyuri_green_mottle_mosaic_virus_AJ295948
+|           |  |        |     |        |  |      |     +--| (100)
+|           |  |        |     |        |  |      |        +--Zucchini_green_mottle_mosaic_virus_AJ295949
+|           |  |        |     |        |  |  +---| (100)
+|           |  |        |     |        |  |  |   |  +--Cucumber_mottle_virus_AB261167
+|           |  |        |     |        |  |  |   +--| (100)
+|           |  |        |     |        |  |  |      |  +--Bottle_gourd_mottle_virus_MF960828
+|           |  |        |     |        |  |  |      +--| (100)
+|           |  |        |     |        |  |  |         +--Watermelon_green_mottle_mosaic_virus_MH837097
+|           |  |        |     |        |  +--| (93)
+|           |  |        |     |        |     |       +--Hibiscus_latent_Singapore_virus_AF395898
+|           |  |        |     |        |     |    +--| (78)
+|           |  |        |     |        |     |    |  +--Hibiscus_latent_Hawaii_virus_ON602041
+|           |  |        |     |        |     +----| (100)
+|           |  |        |     |        |          +--Hibiscus_latent_Fort_Pierce_virus_AB917427
+|           |  |        |     |     +--| (95)
+|           |  |        |     |     |  |         +--Frangipani_mosaic_virus_HM026454
+|           |  |        |     |     |  |  +------| (100)
+|           |  |        |     |     |  |  |      +--Plumeria_mosaic_virus_KJ395757
+|           |  |        |     |     |  +--| (95)
+|           |  |        |     |     |     |               +--Hubei_sediment_virgavirus_1_MW897255
+|           |  |        |     |     |     |  +------------| (100)
+|           |  |        |     |     |     |  |            +--Hubei_sediment_virgavirus_2_MW897259
+|           |  |        |     |     |     +--| (95)
+|           |  |        |     |     |        +----------------------------------------Oat_golden_stripe_virus_furovirus_outgroup_AJ132578
+|           |  |        |     |  +--| (100)
+|           |  |        |     |  |  |        +----Cactus_mild_mottle_virus_EU043335
+|           |  |        |     |  |  |  +-----| (100)
+|           |  |        |     |  |  |  |     +---Rattail_cactus_necrosis_associated_virus_JF729471
+|           |  |        |     |  |  +--| (100)
+|           |  |        |     |  |     +---------Opuntia_virus_2_NC_040685
+|           |  |        |     +--| (100)
+|           |  |        |        +-------Jand_tobamovirus_1_PP971571
+|           |  |     +--| (32)
+|           |  |     |  |  +--Brugmansia_sp._tobamovirus_AM398436
+|           |  |     |  +--| (100)
+|           |  |     |     |  +**Brugmansia_latent_virus_MK012556
+|           |  |     |     +--| (100)
+|           |  |     |        +--Brugmansia_latent_virus_OQ615312
+|           |  |  +--| (35)
+|           |  |  |  |        +--Obuda_pepper_virus_D13438
+|           |  |  |  |     +--| (100)
+|           |  |  |  |     |  +--Paprika_mild_mottle_virus_AB089381
+|           |  |  |  |  +--| (100)
+|           |  |  |  |  |  +--Capsicum_mild_mottle_virus_OR607769
+|           |  |  |  +--| (100)
+|           |  |  |     |  +--Yellow_tailflower_mild_mottle_virus_KF495564
+|           |  |  |     +--| (100)
+|           |  |  |        +--Scopolia_mild_mottle_virus_LC643028
+|           |  +--| (100)
+|           |     +---Tobacco_latent_virus_AY137775
+|        +--| (100)
+|        |  |     +--Bell_pepper_mottle_virus_DQ355023
+|        |  |  +--| (91)
+|        |  |  |  +--Chili_pepper_mild_mottle_virus_OQ920979
+|        |  +--| (100)
+|        |     +--Yellow_pepper_mild_mottle_virus_MN164454
+|     +--| (100)
+|     |  |  +--Tomato_mosaic_virus_AF332868
+|     |  +--| (100)
+|     |     +--Tomato_mottle_mosaic_virus_KF477193
+|  +--| (100)
+|  |  +--Tomato_brown_rugose_fruit_virus_KT383474
++--| (100)
+|  +--Rehmannia_mosaic_virus_EF375551
+|
++--Virgaviridae_sp._OR871424
+
+Tree in newick format:
+
+(Tobacco_mosaic_virus_V01408:0.0071061257,((((((((Pepper_mild_mottle_virus_M81413:0.0020491566,Virgaviridae_sp._MW346736:0.0004864436)100:0.1639841051,Tropical_soda_apple_mosaic_virus_KU659022:0.1660505267)100:0.1297864871,((African_eggplant-associated_virus_OP729507:0.0312899938,African_eggplant-associated_virus_OP729508:0.0123911413)80:0.0107143380,Tobamovirus_sp._OR843968:0.0097595264)100:0.2597483003)100:0.1292626983,(((((Tobacco_mild_green_mosaic_virus_M34077:0.3748377432,Yunnan_virgavirus_3_MW897268:0.7235890753)62:0.0635623093,(((((Odontoglossum_ringspot_virus_X82130:0.4575179676,Piper_chlorosis_virus_isolate_ON924221:0.2479897125)100:0.1502152700,((((Youcai_mosaic_virus_U30944:0.1165545405,(Wasabi_mottle_virus_AB017503:0.0066781853,Crucifer_tobamovirus_AB003936:0.0080570402)100:0.0935606510)100:0.0555344637,(Turnip_vein-clearing_virus_U03387:0.0711903715,((Ribgrass_mosaic_virus_HQ667979:0.0859460038,Plantago_tobamovirus_1_OL472109:0.1088425881)100:0.0222567408,Beldersay_tobamovirus_1_OR912405:0.0785432914)96:0.0194157093)100:0.0474434137)100:0.2796570072,Gorica_tobamovirus_1_OQ789505:0.3029620954)100:0.1082089227,Ullucus_tobamovirus_1_MH645158:0.4994966266)68:0.0459990086)86:0.0469809735,Streptocarpus_flower_break_virus_AM040955:0.5400746442)100:0.0669881813,(Hoya_chlorotic_spot_virus_NC_034509:0.4887603913,Sichuan_virgavirus_MW897265:0.3994528709)100:0.2033074519)100:0.1184514637,((((((Sunn-hemp_mosaic_virus_U47034:0.3914794665,Clitoria_yellow_mottle_virus_JN566124:0.4555960692)100:0.8104703949,((Maracuja_mosaic_virus_DQ356949:0.2069463596,Passion_fruit_mosaic_virus_HQ389540:0.2677989657)100:0.3079076933,Sewage-associated_tobamovirus_LC745662:0.6014020565)100:0.5223715180)60:0.0822415891,((((((Cucumber_green_mottle_mosaic_virus_D12505:0.0000020683,Virgaviridae_sp._OR871422:0.0959554635)99:0.0046028341,Virgaviridae_sp._OR871420:0.0098787566)97:0.0077415726,Virgaviridae_sp._PV470276:0.0039998503)100:0.4708216671,(Cucumber_fruit_mottle_mosaic_virus_AF321057:0.2325072101,(Kyuri_green_mottle_mosaic_virus_AJ295948:0.0910516831,Zucchini_green_mottle_mosaic_virus_AJ295949:0.1354948613)100:0.1557193476)100:0.2859358756)83:0.0867990107,(Cucumber_mottle_virus_AB261167:0.1362820674,(Bottle_gourd_mottle_virus_MF960828:0.0223716873,Watermelon_green_mottle_mosaic_virus_MH837097:0.0037709513)100:0.1435370227)100:0.3410896669)100:0.4545614705,((Hibiscus_latent_Singapore_virus_AF395898:0.2988237159,Hibiscus_latent_Hawaii_virus_ON602041:0.2917847910)78:0.0888630268,Hibiscus_latent_Fort_Pierce_virus_AB917427:0.1922630125)100:0.5593572267)93:0.1170495669)93:0.0582390068,((Frangipani_mosaic_virus_HM026454:0.2474500222,Plumeria_mosaic_virus_KJ395757:0.2713083452)100:0.7015162524,((Hubei_sediment_virgavirus_1_MW897255:0.0548641018,Hubei_sediment_virgavirus_2_MW897259:0.0596209605)100:1.3058091990,Oat_golden_stripe_virus_furovirus_outgroup_AJ132578:4.0977939116)95:0.2533427743)95:0.1529898547)95:0.0769850697,((Cactus_mild_mottle_virus_EU043335:0.5094407702,Rattail_cactus_necrosis_associated_virus_JF729471:0.4350473009)100:0.6707685868,Opuntia_virus_2_NC_040685:1.0606022223)100:0.2041218994)100:0.2496067890,Jand_tobamovirus_1_PP971571:0.8347024434)100:0.1903313811)100:0.1829136686)62:0.0808669999,(Brugmansia_sp._tobamovirus_AM398436:0.3371030572,(Brugmansia_latent_virus_MK012556:0.0000029600,Brugmansia_latent_virus_OQ615312:0.0046602197)100:0.3547860918)100:0.0912927454)32:0.0419199405,(((Obuda_pepper_virus_D13438:0.1563191878,Paprika_mild_mottle_virus_AB089381:0.1763269631)100:0.0873850971,Capsicum_mild_mottle_virus_OR607769:0.2049597265)100:0.1664416946,(Yellow_tailflower_mild_mottle_virus_KF495564:0.2757572074,Scopolia_mild_mottle_virus_LC643028:0.2630137276)100:0.1012000342)100:0.1589765998)35:0.0334001541,Tobacco_latent_virus_AY137775:0.4628906797)100:0.1034909039)100:0.1320467504,((Bell_pepper_mottle_virus_DQ355023:0.1120622333,Chili_pepper_mild_mottle_virus_OQ920979:0.1128058497)91:0.0388788757,Yellow_pepper_mild_mottle_virus_MN164454:0.1065501689)100:0.1112552379)100:0.0833355240,(Tomato_mosaic_virus_AF332868:0.1070003536,Tomato_mottle_mosaic_virus_KF477193:0.1166409103)100:0.0424462771)100:0.0714951038,Tomato_brown_rugose_fruit_virus_KT383474:0.1083090965)100:0.0791301483,Rehmannia_mosaic_virus_EF375551:0.1310425612)100:0.0934280863,Virgaviridae_sp._OR871424:0.0144730314);
+
+CONSENSUS TREE
+--------------
+
+Consensus tree is constructed from 1000 bootstrap trees
+Log-likelihood of consensus tree: -280272.467206
+Robinson-Foulds distance between ML tree and consensus tree: 4
+
+Branches with support >0.000000% are kept (extended consensus)
+Branch lengths are optimized by maximum likelihood on original alignment
+Numbers in parentheses are bootstrap supports (%)
+
++--Tobacco_mosaic_virus_V01408
+|
+|                       +--Pepper_mild_mottle_virus_M81413
+|                    +--| (100)
+|                    |  +--Virgaviridae_sp._MW346736
+|                 +--| (100)
+|                 |  +--Tropical_soda_apple_mosaic_virus_KU659022
+|              +--| (100)
+|              |  |     +--African_eggplant-associated_virus_OP729507
+|              |  |  +--| (80)
+|              |  |  |  +--African_eggplant-associated_virus_OP729508
+|              |  +--| (100)
+|              |     +--Tobamovirus_sp._OR843968
+|           +--| (100)
+|           |  |              +--Tobacco_mild_green_mosaic_virus_M34077
+|           |  |           +--| (62)
+|           |  |           |  +------Yunnan_virgavirus_3_MW897268
+|           |  |        +--| (62)
+|           |  |        |  |              +---Odontoglossum_ringspot_virus_X82130
+|           |  |        |  |           +--| (100)
+|           |  |        |  |           |  +--Piper_chlorosis_virus_isolate_ON924221
+|           |  |        |  |        +--| (86)
+|           |  |        |  |        |  |           +--Youcai_mosaic_virus_U30944
+|           |  |        |  |        |  |        +--| (100)
+|           |  |        |  |        |  |        |  |  +--Wasabi_mottle_virus_AB017503
+|           |  |        |  |        |  |        |  +--| (100)
+|           |  |        |  |        |  |        |     +--Crucifer_tobamovirus_AB003936
+|           |  |        |  |        |  |     +--| (100)
+|           |  |        |  |        |  |     |  |  +--Turnip_vein-clearing_virus_U03387
+|           |  |        |  |        |  |     |  +--| (100)
+|           |  |        |  |        |  |     |     |     +--Ribgrass_mosaic_virus_HQ667979
+|           |  |        |  |        |  |     |     |  +--| (100)
+|           |  |        |  |        |  |     |     |  |  +--Plantago_tobamovirus_1_OL472109
+|           |  |        |  |        |  |     |     +--| (96)
+|           |  |        |  |        |  |     |        +--Beldersay_tobamovirus_1_OR912405
+|           |  |        |  |        |  |  +--| (100)
+|           |  |        |  |        |  |  |  +--Gorica_tobamovirus_1_OQ789505
+|           |  |        |  |        |  +--| (68)
+|           |  |        |  |        |     +----Ullucus_tobamovirus_1_MH645158
+|           |  |        |  |     +--| (100)
+|           |  |        |  |     |  +----Streptocarpus_flower_break_virus_AM040955
+|           |  |        |  |  +--| (100)
+|           |  |        |  |  |  |  +---Hoya_chlorotic_spot_virus_NC_034509
+|           |  |        |  |  |  +--| (100)
+|           |  |        |  |  |     +---Sichuan_virgavirus_MW897265
+|           |  |        |  +--| (100)
+|           |  |        |     |                      +--Sunn-hemp_mosaic_virus_U47034
+|           |  |        |     |              +-------| (100)
+|           |  |        |     |              |       +---Clitoria_yellow_mottle_virus_JN566124
+|           |  |        |     |           +--| (60)
+|           |  |        |     |           |  |       +--Maracuja_mosaic_virus_DQ356949
+|           |  |        |     |           |  |    +--| (100)
+|           |  |        |     |           |  |    |  +--Passion_fruit_mosaic_virus_HQ389540
+|           |  |        |     |           |  +----| (100)
+|           |  |        |     |           |       +-----Sewage-associated_tobamovirus_LC745662
+|           |  |        |     |        +--| (93)
+|           |  |        |     |        |  |                   +--Cucumber_green_mottle_mosaic_virus_D12505
+|           |  |        |     |        |  |                +--| (99)
+|           |  |        |     |        |  |                |  +--Virgaviridae_sp._OR871422
+|           |  |        |     |        |  |             +--| (97)
+|           |  |        |     |        |  |             |  +--Virgaviridae_sp._OR871420
+|           |  |        |     |        |  |         +---| (100)
+|           |  |        |     |        |  |         |   +--Virgaviridae_sp._PV470276
+|           |  |        |     |        |  |      +--| (83)
+|           |  |        |     |        |  |      |  |  +--Cucumber_fruit_mottle_mosaic_virus_AF321057
+|           |  |        |     |        |  |      |  +--| (100)
+|           |  |        |     |        |  |      |     |  +--Kyuri_green_mottle_mosaic_virus_AJ295948
+|           |  |        |     |        |  |      |     +--| (100)
+|           |  |        |     |        |  |      |        +--Zucchini_green_mottle_mosaic_virus_AJ295949
+|           |  |        |     |        |  |  +---| (100)
+|           |  |        |     |        |  |  |   |  +--Cucumber_mottle_virus_AB261167
+|           |  |        |     |        |  |  |   +--| (100)
+|           |  |        |     |        |  |  |      |  +--Bottle_gourd_mottle_virus_MF960828
+|           |  |        |     |        |  |  |      +--| (100)
+|           |  |        |     |        |  |  |         +--Watermelon_green_mottle_mosaic_virus_MH837097
+|           |  |        |     |        |  +--| (93)
+|           |  |        |     |        |     |       +--Hibiscus_latent_Singapore_virus_AF395898
+|           |  |        |     |        |     |    +--| (78)
+|           |  |        |     |        |     |    |  +--Hibiscus_latent_Hawaii_virus_ON602041
+|           |  |        |     |        |     +----| (100)
+|           |  |        |     |        |          +--Hibiscus_latent_Fort_Pierce_virus_AB917427
+|           |  |        |     |     +--| (95)
+|           |  |        |     |     |  |         +--Frangipani_mosaic_virus_HM026454
+|           |  |        |     |     |  |  +------| (100)
+|           |  |        |     |     |  |  |      +--Plumeria_mosaic_virus_KJ395757
+|           |  |        |     |     |  +--| (95)
+|           |  |        |     |     |     |               +--Hubei_sediment_virgavirus_1_MW897255
+|           |  |        |     |     |     |  +------------| (100)
+|           |  |        |     |     |     |  |            +--Hubei_sediment_virgavirus_2_MW897259
+|           |  |        |     |     |     +--| (95)
+|           |  |        |     |     |        +----------------------------------------Oat_golden_stripe_virus_furovirus_outgroup_AJ132578
+|           |  |        |     |  +--| (100)
+|           |  |        |     |  |  |        +----Cactus_mild_mottle_virus_EU043335
+|           |  |        |     |  |  |  +-----| (100)
+|           |  |        |     |  |  |  |     +---Rattail_cactus_necrosis_associated_virus_JF729471
+|           |  |        |     |  |  +--| (100)
+|           |  |        |     |  |     +---------Opuntia_virus_2_NC_040685
+|           |  |        |     +--| (100)
+|           |  |        |        +-------Jand_tobamovirus_1_PP971571
+|           |  |     +--| (59)
+|           |  |     |  +---Tobacco_latent_virus_AY137775
+|           |  |  +--| (49)
+|           |  |  |  |  +--Brugmansia_sp._tobamovirus_AM398436
+|           |  |  |  +--| (100)
+|           |  |  |     |  +--Brugmansia_latent_virus_MK012556
+|           |  |  |     +--| (100)
+|           |  |  |        +--Brugmansia_latent_virus_OQ615312
+|           |  +--| (100)
+|           |     |        +--Obuda_pepper_virus_D13438
+|           |     |     +--| (100)
+|           |     |     |  +--Paprika_mild_mottle_virus_AB089381
+|           |     |  +--| (100)
+|           |     |  |  +--Capsicum_mild_mottle_virus_OR607769
+|           |     +--| (100)
+|           |        |  +--Yellow_tailflower_mild_mottle_virus_KF495564
+|           |        +--| (100)
+|           |           +--Scopolia_mild_mottle_virus_LC643028
+|        +--| (100)
+|        |  |     +--Bell_pepper_mottle_virus_DQ355023
+|        |  |  +--| (91)
+|        |  |  |  +--Chili_pepper_mild_mottle_virus_OQ920979
+|        |  +--| (100)
+|        |     +--Yellow_pepper_mild_mottle_virus_MN164454
+|     +--| (100)
+|     |  |  +--Tomato_mosaic_virus_AF332868
+|     |  +--| (100)
+|     |     +--Tomato_mottle_mosaic_virus_KF477193
+|  +--| (100)
+|  |  +--Tomato_brown_rugose_fruit_virus_KT383474
++--| (100)
+|  +--Rehmannia_mosaic_virus_EF375551
+|
++--Virgaviridae_sp._OR871424
+
+
+Consensus tree in newick format: 
+
+(Tobacco_mosaic_virus_V01408:0.0071071763,((((((((Pepper_mild_mottle_virus_M81413:0.0020482444,Virgaviridae_sp._MW346736:0.0004846900)100:0.1642175512,Tropical_soda_apple_mosaic_virus_KU659022:0.1656619713)100:0.1292350093,((African_eggplant-associated_virus_OP729507:0.0312761785,African_eggplant-associated_virus_OP729508:0.0123827376)80:0.0107353524,Tobamovirus_sp._OR843968:0.0097321102)100:0.2598977993)100:0.1306047883,(((((Tobacco_mild_green_mosaic_virus_M34077:0.3768523733,Yunnan_virgavirus_3_MW897268:0.7212090966)62:0.0630881110,(((((Odontoglossum_ringspot_virus_X82130:0.4572057827,Piper_chlorosis_virus_isolate_ON924221:0.2476621992)100:0.1504059845,((((Youcai_mosaic_virus_U30944:0.1164456786,(Wasabi_mottle_virus_AB017503:0.0066643366,Crucifer_tobamovirus_AB003936:0.0080539337)100:0.0935240194)100:0.0556234235,(Turnip_vein-clearing_virus_U03387:0.0711091949,((Ribgrass_mosaic_virus_HQ667979:0.0858521027,Plantago_tobamovirus_1_OL472109:0.1087691740)100:0.0222517032,Beldersay_tobamovirus_1_OR912405:0.0785187020)96:0.0194015898)100:0.0472802267)100:0.2796164814,Gorica_tobamovirus_1_OQ789505:0.3024882609)100:0.1081990138,Ullucus_tobamovirus_1_MH645158:0.4992517399)68:0.0456417501)86:0.0465932568,Streptocarpus_flower_break_virus_AM040955:0.5402443821)100:0.0668061823,(Hoya_chlorotic_spot_virus_NC_034509:0.4868176462,Sichuan_virgavirus_MW897265:0.4006443401)100:0.2030219750)100:0.1183357880,((((((Sunn-hemp_mosaic_virus_U47034:0.3914694901,Clitoria_yellow_mottle_virus_JN566124:0.4548438144)100:0.8096198736,((Maracuja_mosaic_virus_DQ356949:0.2066004195,Passion_fruit_mosaic_virus_HQ389540:0.2676872167)100:0.3078692955,Sewage-associated_tobamovirus_LC745662:0.6005413512)100:0.5215700283)60:0.0824797575,((((((Cucumber_green_mottle_mosaic_virus_D12505:0.0000023296,Virgaviridae_sp._OR871422:0.0958644649)99:0.0045953285,Virgaviridae_sp._OR871420:0.0098699959)97:0.0077719894,Virgaviridae_sp._PV470276:0.0039711874)100:0.4702053328,(Cucumber_fruit_mottle_mosaic_virus_AF321057:0.2321799562,(Kyuri_green_mottle_mosaic_virus_AJ295948:0.0910698066,Zucchini_green_mottle_mosaic_virus_AJ295949:0.1352414369)100:0.1556005003)100:0.2857116442)83:0.0867104465,(Cucumber_mottle_virus_AB261167:0.1361880733,(Bottle_gourd_mottle_virus_MF960828:0.0223492860,Watermelon_green_mottle_mosaic_virus_MH837097:0.0037671791)100:0.1433289551)100:0.3406249411)100:0.4538554173,((Hibiscus_latent_Singapore_virus_AF395898:0.2984920361,Hibiscus_latent_Hawaii_virus_ON602041:0.2914475724)78:0.0888260852,Hibiscus_latent_Fort_Pierce_virus_AB917427:0.1920730598)100:0.5589841859)93:0.1167100446)93:0.0584014133,((Frangipani_mosaic_virus_HM026454:0.2476650035,Plumeria_mosaic_virus_KJ395757:0.2706049672)100:0.7005612077,((Hubei_sediment_virgavirus_1_MW897255:0.0569867412,Hubei_sediment_virgavirus_2_MW897259:0.0575160226)100:1.3049012246,Oat_golden_stripe_virus_furovirus_outgroup_AJ132578:4.0914187994)95:0.2536474763)95:0.1527854572)95:0.0767719432,((Cactus_mild_mottle_virus_EU043335:0.5094262281,Rattail_cactus_necrosis_associated_virus_JF729471:0.4341480074)100:0.6696358210,Opuntia_virus_2_NC_040685:1.0596466425)100:0.2042199549)100:0.2488317125,Jand_tobamovirus_1_PP971571:0.8351539851)100:0.1898565074)100:0.1826968766)62:0.0261590600,Tobacco_latent_virus_AY137775:0.4699997486)59:0.0600537051,(Brugmansia_sp._tobamovirus_AM398436:0.3368119041,(Brugmansia_latent_virus_MK012556:0.0000028027,Brugmansia_latent_virus_OQ615312:0.0046606350)100:0.3551120349)100:0.0940837539)49:0.0386627172,(((Obuda_pepper_virus_D13438:0.1561584473,Paprika_mild_mottle_virus_AB089381:0.1762303489)100:0.0877921245,Capsicum_mild_mottle_virus_OR607769:0.2042938298)100:0.1657490102,(Yellow_tailflower_mild_mottle_virus_KF495564:0.2752135721,Scopolia_mild_mottle_virus_LC643028:0.2632606957)100:0.1011083208)100:0.1594832615)100:0.1317485640)100:0.1308830160,((Bell_pepper_mottle_virus_DQ355023:0.1120679998,Chili_pepper_mild_mottle_virus_OQ920979:0.1127080888)91:0.0388409466,Yellow_pepper_mild_mottle_virus_MN164454:0.1064375451)100:0.1113438690)100:0.0832902853,(Tomato_mosaic_virus_AF332868:0.1069997512,Tomato_mottle_mosaic_virus_KF477193:0.1165248159)100:0.0424102959)100:0.0714608030,Tomato_brown_rugose_fruit_virus_KT383474:0.1081986418)100:0.0791028088,Rehmannia_mosaic_virus_EF375551:0.1309832005)100:0.0933689586,Virgaviridae_sp._OR871424:0.0144602775);
+
+ALISIM COMMAND
+--------------
+To simulate an alignment of the same length as the original alignment, using the tree and model parameters estimated from this analysis, you can use the following command:
+
+--alisim simulated_MSA -t results/untrimmed/iqtree/reference.treefile -m "GTR{2.15975,4.0385,1.48904,1.47469,5.52206}+F{0.285541,0.188092,0.238641,0.287726}+R6{0.148174,0.0271442,0.13021,0.169158,0.176723,0.399837,0.274553,0.836755,0.167847,1.77381,0.102493,3.66689}" --length 9783
+
+To mimic the alignment used to produce this analysis, i.e. simulate an alignment of the same length as the original alignment, using the tree and model parameters estimated from this analysis *and* copying the same gap positions as the original alignment, you can use the following command:
+
+iqtree -s results/untrimmed/reference.aln --alisim mimicked_MSA
+
+To simulate any number of alignments in either of the two commandlines above, use the --num-alignments options, for example mimic 100 alignments you would use the command line:
+
+iqtree -s results/untrimmed/reference.aln --alisim mimicked_MSA --num-alignments 100
+
+For more information on using AliSim, please visit: www.iqtree.org/doc/AliSim
+
+TIME STAMP
+----------
+
+Date and time: Tue Dec 30 11:27:20 2025
+Total CPU time used: 13050.00813 seconds (3h:37m:30s)
+Total wall-clock time used: 420.8314434 seconds (0h:7m:0s)
+

@@ -1,0 +1,12 @@
+
+        THRESHOLD ANALYSIS SUMMARY
+        ==========================
+        Overall statistics:
+        Mean: 0.5307 ± 0.0612
+        Range: 0.3737 - 0.6869
+
+        Per-iteration means:
+        Mean: 0.5307 ± 0.0291
+        
+        Recommendation: Use default threshold 0.5
+        

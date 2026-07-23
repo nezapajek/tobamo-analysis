@@ -1,0 +1,3 @@
+NC_004729.1_Indian_peanut_clump_virus_RNA_1,_complete_sequence: NC_004729.1_Indian_peanut_clump_virus_RNA_1,_complete_sequence
+NC_003672.1_Peanut_clump_virus_RNA_1,_complete_sequence: NC_003672.1_Peanut_clump_virus_RNA_1,_complete_sequence, X78602.1_Peanut_clump_virus_genomic_RNA_1
+MW961156.1_Peanut_clump_virus_isolate_DSMZ_PV-0291_replicase-RT_(ORF1-RT),_replicase_(ORF1-RT),_and_hypothetical_protein_(ORF2)_genes,_complete_cds: MW961156.1_Peanut_clump_virus_isolate_DSMZ_PV-0291_replicase-RT_(ORF1-RT),_replicase_(ORF1-RT),_and_hypothetical_protein_(ORF2)_genes,_complete_cds

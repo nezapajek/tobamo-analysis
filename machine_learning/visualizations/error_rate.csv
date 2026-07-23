@@ -1,0 +1,5 @@
+orf,orf_complete,orf_partial,orf_complete_or_partial,correct_predictions,false_predictions,"false_predictions_breakdown[tob1,tob2,tob3,oth1,oth2,mas]",false_prediction_rate,false_prediction_rate_pct
+ORF1,3,56,59,50,9,9=[0+1+8+0+0+0],0.15254237288135594,15.25
+ORF2,7,46,53,53,0,0=[0+0+0+0+0+0],0.0,0.0
+ORF3,26,31,57,53,4,4=[0+3+1+0+0+0],0.07017543859649122,7.02
+ORF4,51,18,69,68,1,1=[0+0+1+0+0+0],0.014492753623188406,1.45

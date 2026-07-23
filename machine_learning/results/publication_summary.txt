@@ -1,0 +1,28 @@
+
+PUBLICATION RESULTS SUMMARY
+===========================
+
+Model Selection:
+- RandomForest algorithm was selected as the optimal classifier, being chosen in 22 out of 25 
+  cross-validation folds (88% selection rate) with an average accuracy of 
+  0.7671 ± 0.0215.
+
+Model Evaluation:
+- The histogram-based sequence preprocessing method achieved superior performance with:
+  * Accuracy: 0.9735 (95% CI: 0.9727-0.9743)
+  * F1 Score: 0.9806
+  * Precision: 0.9925
+  * Recall: 0.9690
+  * AUC: 0.9971
+
+Final Model:
+- The final RandomForest model utilized 148 features, with the top contributing 
+  feature being 'tobamo_orf1_identity_score_max' (importance: 0.021722).
+- Feature analysis revealed that tobamovirus-specific ORF1 features were among the most 
+  discriminative for classification.
+
+Statistical Significance:
+- All performance metrics were evaluated across 30 independent iterations, ensuring 
+  statistical robustness of the results.
+- The 95% confidence intervals for all metrics indicate highly significant performance 
+  above random classification.

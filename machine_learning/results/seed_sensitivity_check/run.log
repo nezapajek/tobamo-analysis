@@ -1,0 +1,112 @@
+=== seed 43 start: Fri Jul 31 09:24:39 AM UTC 2026 ===
+Starting pipeline at stage: evaluate
+Input data loaded successfully
+Starting comprehensive evaluation with 30 iterations...
+Threshold mode: tuned (CV-optimized)
+Evaluating binned prediction bins: [10]
+Starting iteration 1/30
+Starting iteration 2/30
+Starting iteration 3/30
+Starting iteration 4/30
+Starting iteration 5/30
+Starting iteration 6/30
+Starting iteration 7/30
+Starting iteration 8/30
+Starting iteration 9/30
+Starting iteration 10/30
+Starting iteration 11/30
+Starting iteration 12/30
+Starting iteration 13/30
+Starting iteration 14/30
+Starting iteration 15/30
+Starting iteration 16/30
+Starting iteration 17/30
+Starting iteration 18/30
+Starting iteration 19/30
+Starting iteration 20/30
+Starting iteration 21/30
+Starting iteration 22/30
+Starting iteration 23/30
+Starting iteration 24/30
+Starting iteration 25/30
+Starting iteration 26/30
+Starting iteration 27/30
+Starting iteration 28/30
+Starting iteration 29/30
+Starting iteration 30/30
+
+Analyzing threshold optimization results...
+
+        THRESHOLD ANALYSIS SUMMARY
+        ==========================
+        Overall statistics:
+        Mean: 0.5192 ± 0.0573
+        Range: 0.3737 - 0.6667
+
+        Per-iteration means:
+        Mean: 0.5192 ± 0.0296
+        
+        Recommendation: Use default threshold 0.5
+        
+
+Evaluation completed! Best method: binned_10
+Results saved to: results/seed_sensitivity_check/seed_43/
+Pipeline completed successfully!
+
+=== seed 43 end: Sat Aug  1 02:58:15 PM UTC 2026 ===
+=== seed 44 start: Sat Aug  1 02:58:15 PM UTC 2026 ===
+Starting pipeline at stage: evaluate
+Input data loaded successfully
+Starting comprehensive evaluation with 30 iterations...
+Threshold mode: tuned (CV-optimized)
+Evaluating binned prediction bins: [10]
+Starting iteration 1/30
+Starting iteration 2/30
+Starting iteration 3/30
+Starting iteration 4/30
+Starting iteration 5/30
+Starting iteration 6/30
+Starting iteration 7/30
+Starting iteration 8/30
+Starting iteration 9/30
+Starting iteration 10/30
+Starting iteration 11/30
+Starting iteration 12/30
+Starting iteration 13/30
+Starting iteration 14/30
+Starting iteration 15/30
+Starting iteration 16/30
+Starting iteration 17/30
+Starting iteration 18/30
+Starting iteration 19/30
+Starting iteration 20/30
+Starting iteration 21/30
+Starting iteration 22/30
+Starting iteration 23/30
+Starting iteration 24/30
+Starting iteration 25/30
+Starting iteration 26/30
+Starting iteration 27/30
+Starting iteration 28/30
+Starting iteration 29/30
+Starting iteration 30/30
+
+Analyzing threshold optimization results...
+
+        THRESHOLD ANALYSIS SUMMARY
+        ==========================
+        Overall statistics:
+        Mean: 0.5302 ± 0.0569
+        Range: 0.4141 - 0.6970
+
+        Per-iteration means:
+        Mean: 0.5302 ± 0.0190
+        
+        Recommendation: Use default threshold 0.5
+        
+
+Evaluation completed! Best method: binned_10
+Results saved to: results/seed_sensitivity_check/seed_44/
+Pipeline completed successfully!
+
+=== seed 44 end: Sun Aug  2 08:32:31 PM UTC 2026 ===

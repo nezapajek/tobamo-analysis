@@ -1,0 +1,169 @@
+# Palmprint Analysis
+
+This directory contains tools and workflows for identifying viral palmprints (conserved RNA-dependent RNA polymerase domains) in sequence data using PalmScan.
+
+## Overview
+
+Palmprints are highly conserved structural domains found in viral RNA-dependent RNA polymerases (RdRp). This analysis pipeline:
+
+1. Predicts open reading frames (ORFs) from nucleotide sequences
+2. Searches for palmprint domains using position-specific scoring matrices (PSSMs)
+3. Extracts and reports sequences containing viral palmprints
+
+This README covers the PalmScan piece in isolation (installation + the raw
+`docker run` command). For the full pipeline — ORF prediction with
+`getorf`/`orfipy` followed by PalmScan, with all the actual commands used on
+this project's data — go straight to **[protocol.md](protocol.md)**.
+
+### Why this directory exists
+
+Not a named module in the paper's Figure 1, but this is a diagnostic tool
+used in three ways:
+
+1. **Source of query palmprints for `dataset_discovery/`** — the RdRp
+   palmprint sequences used to query Serratus PalmID (35 ICTV-recognized
+   *Tobamovirus* palmprints, see `dataset_discovery/README.md`) are the kind
+   of sequence this pipeline extracts.
+2. **Diagnostic on the curated candidate contigs** — running PalmScan
+   directly against `../data/contigs/contigs_non_cellular_filtered.fasta`
+   (see `protocol.md`) shows which candidate contigs do or don't have a
+   PSSM-detectable palmprint. Comparing that against the BLAST-based manual
+   curation categories and the ML classifier's predictions exposes the
+   limitations of a purely domain-based (PSSM) detection approach versus
+   sequence-similarity or ML-based approaches.
+3. **Engine for iterative monitoring** — this pipeline is how you'd close
+   the loop for ongoing discovery: take newly-confirmed novel tobamoviral
+   contigs, extract their palmprints, feed those back into a new Serratus
+   PalmID search (`dataset_discovery/`), pull the newly-flagged SRRs through
+   `tobamo-snakemake`, and classify the resulting contigs with
+   `machine_learning/` — repeating the whole pipeline as new SRA data
+   accumulates over time.
+
+## Prerequisites
+
+### Software Requirements
+
+- **Docker**: For running PalmScan. Not installed by this repo — install it
+  yourself for your platform (e.g. on Ubuntu, `sudo snap install docker`, or
+  see the [official install docs](https://docs.docker.com/engine/install/)).
+  This needs `sudo`/admin access on the host to install, and the
+  `docker build`/`docker run` commands below need `sudo` too unless your
+  user is already in the `docker` group.
+- **ORF prediction tool** — one of:
+  - **EMBOSS** (for `getorf`), via conda: `conda install bioconda::emboss`
+  - **orfipy**, either via conda (`conda install bioconda::orfipy`) or
+    already included if you set up the repo-root environment described in
+    the [top-level README](../README.md#environment-setup)
+- **Git**: For cloning repositories (if needed)
+
+### Installation
+
+1. **Install an ORF prediction tool** (see above) — needed before Step 1 of
+   [protocol.md](protocol.md).
+
+2. **Build PalmScan Docker image**:
+   ```bash
+   docker build -t palmscan .   # prefix with sudo if needed, see above
+   ```
+
+## Usage
+
+### Quick Start
+
+1. **Get help and available options**:
+   ```bash
+   docker run -it --rm \
+     -v "$PWD":/usr/src/palmscan/data \
+     -w /usr/src/palmscan/data \
+     palmscan -help
+   ```
+
+2. **Run PalmScan analysis**:
+   ```bash
+   docker run -it --rm \
+     -v "$PWD":/usr/src/palmscan/data \
+     -w /usr/src/palmscan/data \
+     palmscan \
+     -search_pssms seqs.fasta \
+     -tsv hits.tsv \
+     -report_pssms report \
+     -fasta pp.fa
+   ```
+
+### Input Requirements
+
+- **Input file** (`seqs.fasta`): Amino acid sequences in FASTA format
+- **File location**: Must be in the current working directory or mounted volume
+
+### Output Files
+
+- **`hits.tsv`**: Tab-separated file containing palmprint hit information
+- **`report`**: Detailed report files (generates seqA, seqB, seqC files)
+- **`pp.fa`**: FASTA file containing complete palmprint sequences
+
+### Docker Command Breakdown
+
+```bash
+docker run -it --rm \
+  -v "$PWD":/usr/src/palmscan/data \    # Mount current directory
+  -w /usr/src/palmscan/data \           # Set working directory
+  palmscan \                            # Docker image name
+  -search_pssms seqs.fasta \           # Input amino acid sequences
+  -tsv hits.tsv \                      # Output TSV file
+  -report_pssms report \               # Output report prefix
+  -fasta pp.fa                         # Output palmprint sequences
+```
+
+## Complete Workflow
+
+For a complete analysis pipeline including ORF prediction, see the [protocol.md](protocol.md) file.
+
+## File Structure
+
+```
+palmprint/
+├── README.md           # This file
+├── protocol.md         # Complete analysis protocol
+├── Dockerfile          # Docker build instructions
+├── data/              # Input data directory
+├── results/           # Output results directory
+│   ├── getorf/        # GETORF output
+│   ├── orfipy/        # ORFIPY output
+│   └── palmscan/      # PalmScan results
+└── scripts/           # Analysis scripts
+```
+
+## Troubleshooting
+
+### Common Issues
+
+1. **Docker build fails**:
+   - Ensure Docker is running
+   - Check internet connection for downloading dependencies
+   - Verify Dockerfile syntax
+
+2. **Permission denied errors**:
+   - Check file permissions in mounted directories
+   - Ensure Docker has access to the working directory
+
+3. **Input file not found**:
+   - Verify file paths are correct
+   - Ensure files are in the mounted directory (`$PWD`)
+
+4. **Empty output files**:
+   - Check input sequence format (should be amino acids, not nucleotides)
+   - Verify sequences meet minimum length requirements
+   - Check for valid FASTA format
+
+### Getting Help
+
+- Run `palmscan -help` for command-line options
+- Check the [protocol.md](protocol.md) for step-by-step instructions
+- Review input file formats and requirements
+
+## Notes
+
+- PalmScan requires **amino acid sequences** as input, not nucleotide sequences
+- Use GETORF or ORFIPY to translate nucleotide sequences to amino acids first
+- The analysis identifies conserved palmprint domains characteristic of viral RdRp
+- Results can be used for viral classification and phylogenetic analysis

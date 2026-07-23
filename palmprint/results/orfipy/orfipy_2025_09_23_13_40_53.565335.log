@@ -1,0 +1,6 @@
+2025-09-23 13:40:53 INFO     START LOG
+2025-09-23 13:40:53 INFO     Python info: 3.10.15 | packaged by conda-forge | (main, Oct 16 2024, 01:24:24) [GCC 13.3.0]
+2025-09-23 13:40:53 INFO     orfipy version: 0.0.4
+2025-09-23 13:40:53 INFO     orfipy ../data/contigs/contigs_non_cellular_filtered.fasta --min 270 --max 1000000000 --procs 29 --chunk-size 1000 --strand b --start TTG,CTG,ATG --stop TAA,TAG,TGA --table 1 --between-stops --bed BED --pep PEP --outdir results/orfipy
+2025-09-23 13:40:53 INFO     Processed 510 sequences in 0.16 seconds
+2025-09-23 13:40:53 INFO     END
