@@ -1,6 +1,0 @@
-[96morfipy version 0.0.4[0m
-[96mUsing translation table: Standard (transl_table=1) start: ['TTG', 'CTG', 'ATG'] stop: ['TAA', 'TAG', 'TGA'][0m
-[96mSetting chunk size 1000 MB. Procs 29[0m
-[93mLogs will be saved to: results/snakemake/orfs/orfipy_2025_07_17_23_23_53.629155.log[0m
-Processing 5643120 bytes[92mProcessed 2549 sequences in 0.21 seconds[0m
-

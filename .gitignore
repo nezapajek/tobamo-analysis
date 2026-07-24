@@ -6,17 +6,9 @@ __pycache__/
 # OS
 .DS_Store
 
-# Large regeneratable intermediates dropped from this repo for size -- keep them out
-# if a local re-run recreates them (see machine_learning/README.md "Notes on this migration")
-**/pairwise_aln.csv
-!machine_learning/results/viral_sequences_outside_virgaviridae/pairwise_aln.csv
-**/training_input.csv.bckp
-**/orf_predictions_results.csv
-**/bin-test_fold_final_predictions.csv
-machine_learning/notebooks/results/
-machine_learning/notebooks/archive/
-machine_learning/scripts/archive/
-machine_learning/figures/archive/
-machine_learning/archive/
+# Machine learning folder is under active cleanup -- excluded until it's
+# ready to be added back (see machine_learning/cleanup_review_2026-07-24.md)
+machine_learning/
+
 data/snakemake/
 dataset_discovery/serratus_output_combined_S3.csv
