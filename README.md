@@ -19,6 +19,7 @@ This is the second of three repos this project's code/data was split into:
 <p align="center">
   <img src="images/pipeline.png" alt=" Flowchart illustrating a five-stage viral discovery pipeline. The process begins with dataset discovery via viral RNA-dependent RNA polymerase mining, followed by automated assembly and contig discovery using Snakemake. Candidate contigs then undergo parallel tracks for manual curation, clustering for phylogenetic analysis, and automated classification using a supervised machine learning model" width="500">
 </p>
+Schematics were created with draw.io
 
 ## Structure
 
