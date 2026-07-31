@@ -14,12 +14,12 @@ This is the second of three repos this project's code/data was split into:
    novo* assembly, similarity search, preliminary taxonomic assignment).
 2. **tobamo-analysis** (this repo) — everything downstream of the Snakemake
    pipeline's output.
-3. tobamo-supp-data — supplementary tables and data for the article.
+3. [tobamo-supp-data](https://github.com/nezapajek/tobamo-supp-data) — supplementary tables and files for the article.
 
 <p align="center">
   <img src="images/pipeline.png" alt=" Flowchart illustrating a five-stage viral discovery pipeline. The process begins with dataset discovery via viral RNA-dependent RNA polymerase mining, followed by automated assembly and contig discovery using Snakemake. Candidate contigs then undergo parallel tracks for manual curation, clustering for phylogenetic analysis, and automated classification using a supervised machine learning model" width="500">
 </p>
-Schematics were created with draw.io
+Workflow schematic was created with draw.io
 
 ## Structure
 
