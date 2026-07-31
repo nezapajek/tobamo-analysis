@@ -1,0 +1,10 @@
+Model Selection Summary (across 5 iterations)
+==================================================
+
+Overall Best Model: RandomForest
+Average accuracy: 0.7643 ± 0.0212
+
+Performance by Model:
+----------------------------------------
+SVM: 0.7618 ± 0.0148 (selected in 5/25 folds)
+RandomForest: 0.7643 ± 0.0212 (selected in 20/25 folds)

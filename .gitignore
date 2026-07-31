@@ -6,9 +6,5 @@ __pycache__/
 # OS
 .DS_Store
 
-# Machine learning folder is under active cleanup -- excluded until it's
-# ready to be added back (see machine_learning/cleanup_review_2026-07-24.md)
-machine_learning/
-
 data/snakemake/
 dataset_discovery/serratus_output_combined_S3.csv
