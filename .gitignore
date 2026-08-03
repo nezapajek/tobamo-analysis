@@ -8,3 +8,4 @@ __pycache__/
 
 data/snakemake/
 dataset_discovery/serratus_output_combined_S3.csv
+data/manuscript/*
