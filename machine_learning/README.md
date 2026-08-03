@@ -583,3 +583,19 @@ above):
   `scripts/train_model_pipeline.py`). Overall best model: RandomForest,
   0.7643 ± 0.0212 average accuracy (selected in 20/25 folds) — see
   `results/model_selection/model_selection_summary.txt`.
+- `results/seed_sensitivity_check/` — the `evaluate` stage (source of the
+  0.9735 accuracy / 0.9806 F1 headline figures, reported under the method
+  name `histogram` in `evaluation_results_tuned/` — renamed `binned_10` in
+  the current codebase; same computation, confirmed numerically identical
+  in `eval_once_bins_5_10_15_20_t05/`) is unaffected by the `model_selection()`
+  seeding bug above — `train_and_evaluate()` fits a single fixed Random
+  Forest per fold (no grid search) and was always properly seeded. It had
+  simply never been tested at more than the default seed (42), so this is
+  a robustness check, not a bug fix: it was rerun at seeds 43 and 44 (30
+  iterations each, otherwise identical to the documented Stage 2 command;
+  completed 2026-08-01/02). Best method was `binned_10` in both reruns;
+  accuracy was 0.9728 ± 0.0024 (seed 43) and 0.9734 ± 0.0021 (seed 44) vs.
+  0.9735 ± 0.0023 originally — a max deviation of 0.07 percentage points,
+  with both rerun point estimates falling inside the originally reported
+  95% CI (0.9727-0.9743). Reported numbers throughout are from the original
+  seed-42 run; see `results/seed_sensitivity_check/seed_*/best_method.txt`.
