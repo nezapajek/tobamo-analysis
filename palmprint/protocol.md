@@ -2,11 +2,19 @@
 
 This protocol describes the process for identifying viral palmprints (RNA-dependent RNA polymerase conserved domains) in contig sequences using ORF prediction and PalmScan analysis.
 
+See [README.md](README.md) for background on PalmScan itself and for
+install commands. This file is the step-by-step version, in order.
+
 ## Prerequisites
 
-- Docker installed and running
+- Docker installed and running. Docker isn't installed by this repo — see
+  [README.md's Prerequisites](README.md#prerequisites) for install
+  instructions. Installing it needs `sudo`/admin access, and the `docker`
+  commands in this protocol may need `sudo` too depending on your setup.
+- `getorf` (EMBOSS) and/or `orfipy` installed for Step 1 — see
+  [README.md's Prerequisites](README.md#prerequisites).
 - Input file: `../data/contigs/contigs_non_cellular_filtered.fasta`
-- PalmScan Docker image available
+- PalmScan Docker image available (built in README.md's Installation step)
 
 ## Setup
 
@@ -58,7 +66,9 @@ orfipy ../data/contigs/contigs_non_cellular_filtered.fasta \
 
 ## Step 2: PalmScan Analysis
 
-Run PalmScan on the predicted ORFs to identify viral palmprints:
+Run PalmScan on the predicted ORFs to identify viral palmprints. Prefix the
+`docker` commands below with `sudo` if your user isn't in the `docker`
+group.
 
 ### Analysis 1: PalmScan with GETORF (-find 1)
 

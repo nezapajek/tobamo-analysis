@@ -10,24 +10,36 @@ Palmprints are highly conserved structural domains found in viral RNA-dependent 
 2. Searches for palmprint domains using position-specific scoring matrices (PSSMs)
 3. Extracts and reports sequences containing viral palmprints
 
+This README covers the PalmScan piece in isolation (installation + the raw
+`docker run` command). For the full pipeline — ORF prediction with
+`getorf`/`orfipy` followed by PalmScan, with all the actual commands used on
+this project's data — go straight to **[protocol.md](protocol.md)**.
+
 ## Prerequisites
 
 ### Software Requirements
 
-- **Conda/Miniconda**: For installing EMBOSS
-- **Docker**: For running PalmScan
+- **Docker**: For running PalmScan. Not installed by this repo — install it
+  yourself for your platform (e.g. on Ubuntu, `sudo snap install docker`, or
+  see the [official install docs](https://docs.docker.com/engine/install/)).
+  This needs `sudo`/admin access on the host to install, and the
+  `docker build`/`docker run` commands below need `sudo` too unless your
+  user is already in the `docker` group.
+- **ORF prediction tool** — one of:
+  - **EMBOSS** (for `getorf`), via conda: `conda install bioconda::emboss`
+  - **orfipy**, either via conda (`conda install bioconda::orfipy`) or
+    already included if you set up the repo-root environment described in
+    the [top-level README](../README.md#environment-setup)
 - **Git**: For cloning repositories (if needed)
 
 ### Installation
 
-1. **Install EMBOSS (for getorf)**:
-   ```bash
-   conda install bioconda::emboss
-   ```
+1. **Install an ORF prediction tool** (see above) — needed before Step 1 of
+   [protocol.md](protocol.md).
 
 2. **Build PalmScan Docker image**:
    ```bash
-   docker build -t palmscan .
+   docker build -t palmscan .   # prefix with sudo if needed, see above
    ```
 
 ## Usage
