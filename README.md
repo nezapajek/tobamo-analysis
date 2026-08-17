@@ -7,14 +7,20 @@ machine-learning classification code behind:
 > **Data mining of global sequence datasets markedly expands known diversity
 > within *Tobamovirus* genus.** Manuscript in preparation.
 
-This is the second of three repos this project's code/data was split into:
+This is the first of three repos this project's code/data was split into:
 
-1. [tobamo-snakemake](https://github.com/nezapajek/tobamo-snakemake) —
+1. **tobamo-analysis** (this repo) — dataset discovery (Serratus PalmID
+   query → 253 candidate SRRs), the step upstream of the Snakemake pipeline,
+   plus everything downstream of it: manual curation, clustering/
+   phylogenetic placement, and machine-learning classification.
+2. [tobamo-snakemake](https://github.com/nezapajek/tobamo-snakemake) —
    automated assembly and candidate contig discovery (quality control, *de
-   novo* assembly, similarity search, preliminary taxonomic assignment).
-2. **tobamo-analysis** (this repo) — everything downstream of the Snakemake
-   pipeline's output.
-3. [tobamo-supp-data](https://github.com/nezapajek/tobamo-supp-data) — supplementary tables and files for the article.
+   novo* assembly, similarity search, preliminary taxonomic assignment) on
+   the SRRs selected by `dataset_discovery/` above.
+3. [tobamo-supp-data](https://github.com/nezapajek/tobamo-supp-data) —
+   supplementary tables, sequence alignments, and the supplementary methods
+   document referenced by the article. Archived on Zenodo for a stable,
+   citable DOI; not runnable code like the other two.
 
 <p align="center">
   <img src="images/pipeline.png" alt=" Flowchart illustrating a five-stage viral discovery pipeline. The process begins with dataset discovery via viral RNA-dependent RNA polymerase mining, followed by automated assembly and contig discovery using Snakemake. Candidate contigs then undergo parallel tracks for manual curation, clustering for phylogenetic analysis, and automated classification using a supervised machine learning model" width="500">
