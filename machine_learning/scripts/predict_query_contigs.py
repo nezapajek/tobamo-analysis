@@ -53,24 +53,7 @@ def predict_contigs(input_path, model_dir, outdir, bin_num=10):
     for file_path in [rf_model_path, rf_scaler_path, lr_model_path, feature_names_path]:
         if not os.path.exists(file_path):
             print(f"Error: Required model file not found: {file_path}")
-            # Try fallbacks for LR model if specific bin file is not found.
-            # Naming evolved: histogram -> stacking -> binned.
-            if "lr_binned" in file_path and not os.path.exists(file_path):
-                fallback_candidates = [
-                    os.path.join(model_dir, f"lr_stacking_{bin_num}_model.joblib"),
-                    os.path.join(model_dir, f"lr_histogram_{bin_num}_model.joblib"),
-                    os.path.join(model_dir, "lr_binned_model.joblib"),
-                    os.path.join(model_dir, "lr_stacking_model.joblib"),
-                    os.path.join(model_dir, "lr_histogram_model.joblib"),
-                ]
-                fallback_path = next((p for p in fallback_candidates if os.path.exists(p)), None)
-                if fallback_path is not None:
-                    print(f"Using fallback LR model: {fallback_path}")
-                    lr_model_path = fallback_path
-                else:
-                    sys.exit(1)
-            else:
-                sys.exit(1)
+            sys.exit(1)
 
     # Load models and data
     print("Loading models and data...")

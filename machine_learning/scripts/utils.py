@@ -20,7 +20,6 @@ from Bio.Seq import Seq
 from Bio.SeqRecord import SeqRecord
 from joblib import dump, load
 from scipy.optimize import curve_fit
-from sklearn.ensemble import RandomForestClassifier
 from sklearn.linear_model import LogisticRegression
 from sklearn.metrics import (
     ConfusionMatrixDisplay,
@@ -38,11 +37,7 @@ from sklearn.model_selection import (
     StratifiedKFold,
     TunedThresholdClassifierCV,
 )
-from sklearn.naive_bayes import GaussianNB
-from sklearn.neighbors import KNeighborsClassifier
 from sklearn.preprocessing import StandardScaler
-from sklearn.svm import SVC
-from sklearn.tree import DecisionTreeClassifier
 from tqdm import tqdm
 import scipy.cluster.hierarchy as sch
 import scipy.spatial.distance as ssd
@@ -175,11 +170,21 @@ def make_dendrograms(matrix, res, selected_col, genus):
             return None
 
         linkage_matrix = sch.linkage(condensed_distance_matrix, method="single", optimal_ordering=True)
-        num_labels = len(res.index)
-        fig_height = max(10, num_labels * 0.3)  # Adjust the multiplier as needed for better fit
 
-        # Create the dendrogram plot
-        plt.figure(figsize=(12, fig_height))
+    except Exception as e:
+        print(f"      Error building linkage for {genus}: {str(e)}")
+        return None
+
+    # Plotting is best-effort: a save failure (e.g. hitting matplotlib's 2**16 px
+    # per-side limit on genera with hundreds of sequences) must not discard the
+    # linkage matrix computed above, since callers depend on it for clustering.
+    try:
+        num_labels = len(res.index)
+        fig_width = 12
+        fig_height = max(10, num_labels * 0.3)  # Adjust the multiplier as needed for better fit
+        dpi = min(300, int(65500 / max(fig_width, fig_height)))
+
+        plt.figure(figsize=(fig_width, fig_height))
         dendrogram = sch.dendrogram(linkage_matrix, labels=res.index, orientation="left")
         plt.title(f"Hierarchical Dendrogram of {genus} RNA1 base on {selected_col}")
         plt.xlabel("Distance")
@@ -187,15 +192,16 @@ def make_dendrograms(matrix, res, selected_col, genus):
         os.makedirs("results/reference_selection/dendrograms", exist_ok=True)
         plt.savefig(
             f"results/reference_selection/dendrograms/{genus}_RNA1_{selected_col}_dendrogram.png",
-            dpi=300,
+            dpi=dpi,
             bbox_inches="tight",
         )
         plt.close()
-        return linkage_matrix
 
     except Exception as e:
-        print(f"      Error creating dendrogram for {genus}: {str(e)}")
-        return None
+        print(f"      Error plotting dendrogram for {genus}: {str(e)}")
+        plt.close()
+
+    return linkage_matrix
 
 
 def make_dendrogram_selected_species(matrix, res, selected_col, genus, selected_species_list, distance_threshold):
@@ -207,10 +213,13 @@ def make_dendrogram_selected_species(matrix, res, selected_col, genus, selected_
 
     # Determine the figure size based on the number of labels
     num_labels = len(res.index)
+    fig_width = 12
     fig_height = max(10, num_labels * 0.3)  # Adjust the multiplier as needed for better fit
+    # matplotlib/Agg caps rendered images at 2**16 px per side
+    dpi = min(100, int(65500 / max(fig_width, fig_height)))
 
     # Create the dendrogram plot
-    plt.figure(figsize=(12, fig_height))
+    plt.figure(figsize=(fig_width, fig_height))
     dendrogram = sch.dendrogram(
         linkage_matrix,
         labels=res.index,
@@ -244,10 +253,10 @@ def make_dendrogram_selected_species(matrix, res, selected_col, genus, selected_
 
     # Create the output directory if it doesn't exist
     out_path = "results/reference_selection/dendrograms_selected_species"
-    os.makedirs("out_path", exist_ok=True)
+    os.makedirs(out_path, exist_ok=True)
 
     # Save the dendrogram plot
-    plt.savefig(f"{out_path}/{genus}_RNA1_{selected_col}_dendrogram.png", dpi=100, bbox_inches="tight")
+    plt.savefig(f"{out_path}/{genus}_RNA1_{selected_col}_dendrogram.png", dpi=dpi, bbox_inches="tight")
     # plt.show()
     plt.close()
 
@@ -984,7 +993,9 @@ def pairwise_refs(ref_path):
     args_list = []
     for seq1, seq2 in combinations(ref_seqs, 2):
         args_list.append([seq1, seq2])
-    results = process_in_chunks(args_list, 1000, 32)
+    # cap at ~80% of available cores so this shared machine stays usable
+    max_workers = max(1, int((os.cpu_count() or 1) * 0.8))
+    results = process_in_chunks(args_list, 1000, max_workers)
     df = pd.DataFrame(results)
     return df
 
