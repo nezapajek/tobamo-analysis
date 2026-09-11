@@ -9,3 +9,9 @@ __pycache__/
 data/snakemake/
 dataset_discovery/serratus_output_combined_S3.csv
 data/manuscript/*
+machine_learning/notebooks/hat3.seed
+machine_learning/notebooks/pre
+machine_learning/notebooks/results/reference_selection/clusters/*
+machine_learning/notebooks/results/reference_selection/dendrograms/*
+machine_learning/notebooks/results/reference_selection/pairwise_aln/*
+machine_learning/notebooks/results/reference_selection/virgaviridae/*
