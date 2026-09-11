@@ -52,9 +52,14 @@ tobamo-analysis/
   categories (known/novel/divergent tobamoviral, related/unrelated other
   viruses, misassembled).
 - **`palmprint/`** — palmprint (RdRp) domain identification via ORF
-  prediction + PalmScan; not a named module in the paper's figure, but
-  informative for the "why" behind curation and the ML classifier's feature
-  design.
+  prediction + PalmScan; not a named module in the paper's figure, but a
+  diagnostic tool used three ways: source of the query palmprints for
+  `dataset_discovery/`, a check on which curated candidate contigs do or
+  don't carry a PSSM-detectable palmprint (exposing the limits of pure
+  domain-based detection versus BLAST/ML), and the engine for iterative
+  monitoring — extracting palmprints from newly-confirmed contigs to feed
+  a new Serratus search and repeat the whole pipeline as new SRA data
+  accumulates.
 - **`clustering_taxonomic_placement/`** — BLAST+NetworkX clustering of novel
   tobamoviral contigs, then MAFFT+EPA-ng phylogenetic placement onto a fixed
   reference tree (external MEGA11/MUSCLE/trimAl/IQ-TREE tree-building step

@@ -15,6 +15,30 @@ This README covers the PalmScan piece in isolation (installation + the raw
 `getorf`/`orfipy` followed by PalmScan, with all the actual commands used on
 this project's data — go straight to **[protocol.md](protocol.md)**.
 
+### Why this directory exists
+
+Not a named module in the paper's Figure 1, but this is a diagnostic tool
+used in three ways:
+
+1. **Source of query palmprints for `dataset_discovery/`** — the RdRp
+   palmprint sequences used to query Serratus PalmID (35 ICTV-recognized
+   *Tobamovirus* palmprints, see `dataset_discovery/README.md`) are the kind
+   of sequence this pipeline extracts.
+2. **Diagnostic on the curated candidate contigs** — running PalmScan
+   directly against `../data/contigs/contigs_non_cellular_filtered.fasta`
+   (see `protocol.md`) shows which candidate contigs do or don't have a
+   PSSM-detectable palmprint. Comparing that against the BLAST-based manual
+   curation categories and the ML classifier's predictions exposes the
+   limitations of a purely domain-based (PSSM) detection approach versus
+   sequence-similarity or ML-based approaches.
+3. **Engine for iterative monitoring** — this pipeline is how you'd close
+   the loop for ongoing discovery: take newly-confirmed novel tobamoviral
+   contigs, extract their palmprints, feed those back into a new Serratus
+   PalmID search (`dataset_discovery/`), pull the newly-flagged SRRs through
+   `tobamo-snakemake`, and classify the resulting contigs with
+   `machine_learning/` — repeating the whole pipeline as new SRA data
+   accumulates over time.
+
 ## Prerequisites
 
 ### Software Requirements
