@@ -13,6 +13,7 @@ This repository provides Python scripts for training and using a **Random Forest
    - 3.3 [Finding ORFs and Pairwise Alignment](#33-finding-orfs-and-pairwise-alignment)
    - 3.4 [Data Processing and Training Input Generation](#34-data-processing-and-training-input-generation)
    - 3.5 [Model Training and Evaluation](#35-model-training-and-evaluation)
+     - 3.5.4 [Analyzing Feature Importance](#354-analyzing-feature-importance)
 4. [**Using the Model for Classification**](#4-using-the-model-for-classification)
    - 4.1 [Preprocessing Query Contigs](#41-preprocessing-query-contigs)
    - 4.2 [Predicting Tobamovirus Contigs](#42-predicting-tobamovirus-contigs)
@@ -22,8 +23,7 @@ This repository provides Python scripts for training and using a **Random Forest
      - 5.2.1 [This Study's Candidate Contigs (Snakemake Output)](#521-this-studys-candidate-contigs-snakemake-output)
      - 5.2.2 [Viral Sequences Outside Virgaviridae](#522-viral-sequences-outside-virgaviridae)
    - 5.3 [Expected Directory Structure After Training](#53-expected-directory-structure-after-training)
-6. [**Notes**](#6-notes)
-7. [**Contact**](#7-contact)
+   - 5.4 [Supplementary Analysis Notebooks](#54-supplementary-analysis-notebooks)
 
 ---
 
@@ -161,6 +161,16 @@ The production model combines the best components from our evaluation:
 - **Feature Importance**: Analysis reveals most informative sequence characteristics
 - **Serialization**: Models saved as joblib files for deployment in production pipeline
 
+Note: the Random Forest's `n_estimators=200, max_depth=50` are hardcoded in
+`train_model_pipeline.py` (`--stage final`), not exposed as CLI flags. These
+were the best-performing combination found by the model-selection run used
+for this study's published model, and are fixed at those exact values for
+reproducibility — re-running `--stage select` on a fresh `model_selection`
+grid search may suggest different values (grid search over a limited number
+of iterations has some run-to-run variance), but the shipped `final_model/`
+is trained on `50`/`200` specifically, not whatever a given `select` run
+happens to recommend.
+
 This multi-stage approach ensures robust performance across diverse viral sequence data while maintaining interpretability
 
 **Command**
@@ -248,7 +258,7 @@ python scripts/train_model_pipeline.py <path/to/training_input.csv> <path/to/ref
     - `results/<outdir>/feature_importances.csv` - All feature importances ranked
     - `results/<outdir>/top_40_features.csv` - Top 40 features
 
-**Analyzing Feature Importance**
+### **3.5.4 Analyzing Feature Importance**
 
 `scripts/analyze_feature_importance.py` summarizes the Random Forest feature
 importances (grouped by source/protein/feature family, plus top-k cumulative
@@ -343,7 +353,7 @@ Here's a step-by-step example of training a model from scratch:
 # Run the notebook to fit curve on Snakemake output data
 # Input: Snakemake pipeline output data
 # Output: results/training/sampling/fitted_curve_lens_freq.json
-jupyter notebook notebooks/01_fit_distribution_curve.ipynb
+jupyter notebook notebooks/fit_distribution_curve.ipynb
 ```
 
 ### **Step 2: Sample Reference Genomes**
@@ -558,44 +568,44 @@ results/
     └── contig_predictions.csv
 ```
 
-## Notes on this migration
+## **5.4 Supplementary Analysis Notebooks**
 
-To keep this repo git-friendly, several large regeneratable intermediates
-were dropped from `results/` (all reproducible via the commands documented
-above):
+Three additional notebooks in `notebooks/` support results analysis but
+aren't part of the core numbered workflow above:
+
+- **`notebooks/model_snakemake_predictions.ipynb`** — merges
+  `results/curated_candidate_contigs/predictions/contig_predictions.csv`
+  (Section 5.2.1) against the domain-expert ground truth
+  (`../data/domain_sci_input/ground_truth_final_added_categories.xlsx`) to
+  evaluate model performance on this study's real candidate contigs. Useful
+  as a template if you have your own ground-truth labels to check
+  predictions against.
+- **`notebooks/model_selection.ipynb`** — summarizes RandomForest
+  hyperparameter selection results (Section 3.5.1) against
+  `results/model_selection`.
+- **`notebooks/reference_selection.ipynb`** — exploratory notebook used to
+  pick one representative sequence per genus from an NCBI Virgaviridae
+  download via hierarchical clustering, cross-checked against the
+  originally-used reference set (`../data/tobamo/genome_clean_.fasta`).
+
+## Reproducibility notes
+
+A few large, regeneratable intermediates were left out of `results/` to
+keep this repo git-friendly. All are reproducible via the commands
+documented above:
 
 - `results/training/pairwise_aln.csv` (2.2GB) — regenerate with
   `scripts/getorfs_pairwise_aln.py` on the sampled training contigs.
-- `results/curated_candidate_contigs/pairwise_aln.csv` (961MB) — same script,
-  run on `../data/contigs/contigs_all_deduplicated.fasta`.
-- The raw per-fold/per-ORF prediction dumps inside `evaluation_results_tuned/`
-  and `eval_once_bins_5_10_15_20_t05/` (each folder's `best_method.txt`,
-  `method_comparison_*.csv`, `threshold_summary.txt`, and `*_iteration_metrics.csv`
-  are kept as the citable summary, matching Supplementary Figures S3/S4).
-- `results/evaluation_results_fixed05/orf_predictions_results.csv` (~170MB,
-  exceeds GitHub's 100MB file limit) — needed only by
+- `results/curated_candidate_contigs/pairwise_aln.csv` (961MB) — same
+  script, run on `../data/contigs/contigs_all_deduplicated.fasta`.
+- `results/evaluation_results_fixed05/orf_predictions_results.csv`
+  (~170MB, exceeds GitHub's 100MB file limit) — needed only by
   `visualizations/supp_fig6_orf-predictionss.ipynb`; regenerate via
   `train_model_pipeline.py --stage evaluate --outdir evaluation_results_fixed05
   --use_fixed_threshold --threshold 0.5`.
-- `results/model_selection/` — the reproducibility-bug fix re-run completed
-  on 2026-07-24 (5/5 iterations; the bug itself, missing `random_state` on
-  non-RandomForest classifiers in `model_selection()`, is fixed in
-  `scripts/train_model_pipeline.py`). Overall best model: RandomForest,
-  0.7643 ± 0.0212 average accuracy (selected in 20/25 folds) — see
-  `results/model_selection/model_selection_summary.txt`.
-- `results/seed_sensitivity_check/` — the `evaluate` stage (source of the
-  0.9735 accuracy / 0.9806 F1 headline figures, reported under the method
-  name `histogram` in `evaluation_results_tuned/` — renamed `binned_10` in
-  the current codebase; same computation, confirmed numerically identical
-  in `eval_once_bins_5_10_15_20_t05/`) is unaffected by the `model_selection()`
-  seeding bug above — `train_and_evaluate()` fits a single fixed Random
-  Forest per fold (no grid search) and was always properly seeded. It had
-  simply never been tested at more than the default seed (42), so this is
-  a robustness check, not a bug fix: it was rerun at seeds 43 and 44 (30
-  iterations each, otherwise identical to the documented Stage 2 command;
-  completed 2026-08-01/02). Best method was `binned_10` in both reruns;
-  accuracy was 0.9728 ± 0.0024 (seed 43) and 0.9734 ± 0.0021 (seed 44) vs.
-  0.9735 ± 0.0023 originally — a max deviation of 0.07 percentage points,
-  with both rerun point estimates falling inside the originally reported
-  95% CI (0.9727-0.9743). Reported numbers throughout are from the original
-  seed-42 run; see `results/seed_sensitivity_check/seed_*/best_method.txt`.
+
+The raw per-fold/per-ORF prediction dumps inside `evaluation_results_tuned/`
+and `eval_once_bins_5_10_15_20_t05/` were also dropped; each folder's
+`best_method.txt`, `method_comparison_*.csv`, `threshold_summary.txt`, and
+`*_iteration_metrics.csv` are kept as the citable summary, matching
+Supplementary Figures S3/S4.

@@ -45,6 +45,12 @@ and the domain-expert category annotation
 `results/metadata.csv` is the same 253-row metadata later published as
 `Supplementary_table4.tsv` in `tobamo-supp-data` (modulo tsv/csv formatting).
 
+### `notebooks/manual_curation_categories.ipynb`
+
+Generates the category distribution pie chart (`results/category_distribution.png`,
+embedded below) from the domain-expert annotation
+(`../data/domain_sci_input/ground_truth_final_added_categories.xlsx`).
+
 ## Manual curation and annotation (domain-expert work, no code)
 
 Beyond the filtering and metadata steps above, the bulk of the work described
@@ -91,9 +97,6 @@ mas. Table 1 in the paper summarizes the manual curation results, including
 notable observations on tobamovirus-like contigs and other viral groups.
 
 ![Manual curation category distribution](results/category_distribution.png)
-
-*(generated in `notebooks/manual_curation_categories.ipynb` from
-`../data/domain_sci_input/ground_truth_final_added_categories.xlsx`)*
 
 ## `results/`
 
