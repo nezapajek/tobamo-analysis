@@ -40,6 +40,7 @@ gappa examine graft \
 - `prep_refs.py`: Align reference sequences with MAFFT, optionally trim with trimAl, and build tree with IQ-TREE
 - `phylo_placement.py`: Align contigs to reference and perform phylogenetic placement with EPA-ng
 - `add_rc.py`: Add reverse complement sequences to FASTA file (for testing both orientations)
+- `get_contig_coodinates.ipynb`: Notebook that parses a `contigs_aligned.fasta` output and extracts the non-gap coordinate range for each contig, writing `contig_coordinates.xlsx`; not part of the main placement pipeline above
 
 ## Important Notes
 
@@ -62,5 +63,6 @@ This adds reverse complement sequences with `rc_` prefix, doubling the input siz
 ## Documentation
 
 - `protocol.md`: Detailed step-by-step protocol with all options and examples
+- `protocol_forward.md`: Command log for a specific rerun of this pipeline after contigs found to be in the wrong orientation were manually corrected to forward strand
 - `environment.yml`: Conda environment specification with all required tools
 
