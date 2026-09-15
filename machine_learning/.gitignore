@@ -18,5 +18,14 @@ results/evaluation_results_fixed05/extreme_predictions_results.csv
 **/sampling_report/
 results/training/sampling/
 
-# In-progress background job — commit separately once both seeds complete.
-results/seed_sensitivity_check/
+# Raw per-ORF prediction dumps from the seed sensitivity check — summary
+# files (best_method.txt, method_comparison_*.csv, threshold_summary.txt,
+# *_iteration_metrics.csv) are tracked, matching evaluation_results_tuned/.
+results/seed_sensitivity_check/seed_43/orf_predictions_results.csv
+results/seed_sensitivity_check/seed_43/extreme_predictions_results.csv
+results/seed_sensitivity_check/seed_43/binned_predictions_results.csv
+results/seed_sensitivity_check/seed_43/binned_predictions_results_tuned.csv
+results/seed_sensitivity_check/seed_44/orf_predictions_results.csv
+results/seed_sensitivity_check/seed_44/extreme_predictions_results.csv
+results/seed_sensitivity_check/seed_44/binned_predictions_results.csv
+results/seed_sensitivity_check/seed_44/binned_predictions_results_tuned.csv
