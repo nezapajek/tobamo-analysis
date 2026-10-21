@@ -33,7 +33,7 @@ Two related but distinct analyses, both built on the cluster representatives:
    were discarded, ends were manually trimmed to the longest aligned segment,
    then further automated trimming was applied with trimAl (v1.13,
    `automated1`) — these four trimmed alignments are
-   `tobamo-supp-data/supplementary_data/orf{1,2,3,4}_tree_alignment.fasta`
+   `tobamo-supp-data/supplementary_materials/{RdRp-ORF1,RdRp-ORF2,MP,CP}_tree_alignment.fasta`
    (Supplementary Files S1–S4). Maximum-likelihood trees were inferred from
    the trimmed alignments in IQ-TREE (v3.0.1), using automatic
    substitution-model selection and bootstrap support from the bootstrap

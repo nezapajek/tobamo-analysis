@@ -1,5 +1,7 @@
 # tobamo-analysis
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23366618.svg)](https://doi.org/10.5281/zenodo.23366618)
+
 Dataset discovery, manual curation, clustering/phylogenetic placement, and
 machine-learning classification code behind:
 
@@ -18,9 +20,10 @@ This is the first of three repos this project's code/data was split into:
    novo* assembly, similarity search, preliminary taxonomic assignment) on
    the SRRs selected by `dataset_discovery/` above.
 3. [tobamo-supp-data](https://github.com/nezapajek/tobamo-supp-data) —
-   supplementary tables, sequence alignments, and the supplementary methods
-   document referenced by the article. Archived on Zenodo for a stable,
-   citable DOI; not runnable code like the other two.
+   the complete supplementary materials referenced by the article
+   (Supplementary Materials PDF, Tables S3–S6, Files S1–S4). Archived on
+   Zenodo ([10.5281/zenodo.23366154](https://doi.org/10.5281/zenodo.23366154));
+   data only, not runnable code like the other two.
 
 <p align="center">
   <img src="images/pipeline.png" alt=" Flowchart illustrating a five-stage viral discovery pipeline. The process begins with dataset discovery via viral RNA-dependent RNA polymerase mining, followed by automated assembly and contig discovery using Snakemake. Candidate contigs then undergo parallel tracks for manual curation, clustering for phylogenetic analysis, and automated classification using a supervised machine learning model" width="500">
@@ -98,6 +101,18 @@ starting point:
 - **`palmprint/`** — needs `getorf` (EMBOSS, via conda) or `orfipy` (in the
   root env above) for ORF prediction, plus Docker for PalmScan itself —
   see [`palmprint/README.md`](palmprint/README.md#prerequisites).
+
+## Citation
+
+If you use this code, please cite:
+
+- This repository: archived on Zenodo, DOI
+  [10.5281/zenodo.23366618](https://doi.org/10.5281/zenodo.23366618) (always
+  resolves to the latest version; each release also has its own
+  version-specific DOI, listed on the Zenodo page)
+- Related publication: Pajek Arambašič N, Bačnik K, Kranjc L, Vogrinec L, Curk T, Kutnjak D.
+  Data mining of global sequence datasets markedly expands known diversity
+  within the *Tobamovirus* genus. Manuscript submitted.
 
 ## License
 

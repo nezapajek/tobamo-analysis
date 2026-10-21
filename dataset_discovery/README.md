@@ -15,7 +15,7 @@ domains.
 2. For each unique run ID / palm ID pair, keep only the highest-identity hit
    (`serratus_output_combined_S3.csv`, 136,965 rows — one row per
    run/palmprint alignment; this is the same data as
-   [Supplementary Table S3](https://github.com/nezapajek/tobamo-supp-data/blob/main/supplementary_data/Supplementary_table3.tsv),
+   [Supplementary Table S3](https://github.com/nezapajek/tobamo-supp-data/blob/main/supplementary_materials/Supplementary_table3.tsv),
    modulo formatting — the supp-data copy has been through an Excel
    round-trip, giving it comma decimals and non-ISO dates).
 3. Filter to hits with `50 < pident < 95`: high enough to be a real
