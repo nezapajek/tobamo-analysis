@@ -5,7 +5,7 @@ machine-learning classification code behind:
 
 > Pajek Arambašič N, Bačnik K, Kranjc L, Vogrinec L, Curk T, Kutnjak D.
 > **Data mining of global sequence datasets markedly expands known diversity
-> within *Tobamovirus* genus.** Manuscript in preparation.
+> within the *Tobamovirus* genus.** Manuscript submitted.
 
 This is the first of three repos this project's code/data was split into:
 
